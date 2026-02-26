@@ -1,0 +1,7 @@
+2026-02-26 10:56:25 [main] INFO  Test.Hooks - Before Suite : set Browser : chrome
+2026-02-26 10:56:25 [main] INFO  Test.Hooks - Before Class : Initilize Browser 
+2026-02-26 10:56:25 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-26 10:56:30 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-26 10:56:32 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-26 10:56:32 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-26 10:56:32 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
