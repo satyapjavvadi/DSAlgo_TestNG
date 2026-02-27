@@ -7,7 +7,7 @@ import java.util.Properties;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterClass; 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
@@ -45,7 +45,7 @@ public class Hooks {
 	
 	@BeforeClass
 	public void setUp() {
-		logger.info("Before Class : Initilize Browser ");
+		logger.info("Before Class : Initialize Browser ");
 				DriverFactory.launchBrowser();
 				
 		Test testAnnotationTest = getClass().getAnnotation(Test.class);

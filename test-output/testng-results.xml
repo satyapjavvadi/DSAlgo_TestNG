@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-26T10:56:25 PST" name="Default suite" finished-at="2026-02-26T10:56:32 PST" duration-ms="7525">
+  <suite started-at="2026-02-26T23:12:13 PST" name="Default suite" finished-at="2026-02-26T23:12:16 PST" duration-ms="3275">
     <groups>
     </groups>
-    <test started-at="2026-02-26T10:56:25 PST" name="Default test" finished-at="2026-02-26T10:56:32 PST" duration-ms="7525">
+    <test started-at="2026-02-26T23:12:13 PST" name="Default test" finished-at="2026-02-26T23:12:16 PST" duration-ms="3275">
       <class name="Test.TC01_launch">
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Test.TC01_launch@58783f6c]" started-at="2026-02-26T10:56:25 PST" name="setBrowser" finished-at="2026-02-26T10:56:25 PST" duration-ms="137" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:12 PST" name="setBrowser" finished-at="2026-02-26T23:12:13 PST" duration-ms="1032" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,14 +18,48 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.TC01_launch@58783f6c]" started-at="2026-02-26T10:56:25 PST" name="setUp" finished-at="2026-02-26T10:56:32 PST" duration-ms="7247" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:13 PST" name="setUp" finished-at="2026-02-26T23:12:15 PST" duration-ms="2498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyTitle()[pri:0, instance:Test.TC01_launch@58783f6c]" started-at="2026-02-26T10:56:32 PST" name="verifyTitle" finished-at="2026-02-26T10:56:32 PST" duration-ms="100" status="PASS">
+        <test-method signature="verifyButtonCount()[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:15 PST" name="verifyButtonCount" finished-at="2026-02-26T23:12:15 PST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyButtonCount -->
+        <test-method signature="verifyButtonText()[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:15 PST" name="verifyButtonText" finished-at="2026-02-26T23:12:15 PST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyButtonText -->
+        <test-method signature="verifyContentText(java.lang.String)[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:15 PST" name="verifyContentText" data-provider="launchPageText" finished-at="2026-02-26T23:12:16 PST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Preparing for the Interviews]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentText -->
+        <test-method signature="verifyContentText(java.lang.String)[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:16 PST" name="verifyContentText" data-provider="launchPageText" finished-at="2026-02-26T23:12:16 PST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Copyright@NumpyNinja2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentText -->
+        <test-method signature="verifyTitle()[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:16 PST" name="verifyTitle" finished-at="2026-02-26T23:12:16 PST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:16 PST" name="tearDown" finished-at="2026-02-26T23:12:16 PST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- Test.TC01_launch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
