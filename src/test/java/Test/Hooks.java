@@ -45,7 +45,7 @@ public class Hooks {
 	
 	@BeforeClass
 	public void setUp() {
-		logger.info("Before Class : Initilize Browser ");
+		logger.info("Before Class : Initialize Browser ");
 				DriverFactory.launchBrowser();
 				
 		Test testAnnotationTest = getClass().getAnnotation(Test.class);

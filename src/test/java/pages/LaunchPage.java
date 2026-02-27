@@ -4,18 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 import DriverManager.DriverFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 
 import utils.JSUtils;
 
 public class LaunchPage {
 
-    private static final Logger logger = LoggerFactory.getLogger(LaunchPage.class);
+    private static final Logger logger = LogManager.getLogger(LaunchPage.class);
 
     private WebDriver driver;
 
@@ -75,7 +76,7 @@ public class LaunchPage {
             buttonTexts.add(button.getText());
         }
 
-        logger.debug("Button texts: {}", buttonTexts);
+        logger.info("Button texts: {}", buttonTexts);
         return buttonTexts;
     }
 
