@@ -5,9 +5,10 @@
     <classes>
       <class name="Test.TC01_launch">
         <methods>
-          <include name="setUp"/>
           <include name="setBrowser"/>
-          <include name="verifyTitle"/>
+          <include name="setUp"/>
+          <include name="verifyButtonText"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- Test.TC01_launch -->
     </classes>
