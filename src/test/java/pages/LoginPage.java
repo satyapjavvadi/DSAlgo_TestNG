@@ -2,16 +2,15 @@ package pages;
 
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import DriverManager.DriverFactory;
-import utils.ConfigReader;
 import utils.ExcelReader;
 import utils.JSUtils;
 import utils.TestContext;
@@ -19,7 +18,7 @@ import utils.WaitUtils;
 
 public class LoginPage {
 
-	private static final Logger logger = LoggerFactory.getLogger(LoginPage.class);
+	private static final Logger logger = LogManager.getLogger(LoginPage.class);
 
 	private WebDriver driver;
 
@@ -100,20 +99,20 @@ public class LoginPage {
 		String errorMessage = null;
 
 		switch (inField) {
-			case "username field":
-				errorMessage = usernameField.getAttribute("validationMessage");
-				break;
+		case "username field":
+			errorMessage = usernameField.getAttribute("validationMessage");
+			break;
 
-			case "password field":
-				errorMessage = passwordField.getAttribute("validationMessage");
-				break;
+		case "password field":
+			errorMessage = passwordField.getAttribute("validationMessage");
+			break;
 
-			case "alert":
-				errorMessage = error.getText();
-				break;
+		case "alert":
+			errorMessage = error.getText();
+			break;
 
-			default:
-				logger.warn("Unknown error field type: {}", inField);
+		default:
+			logger.warn("Unknown error field type: {}", inField);
 		}
 
 		logger.info("Error message retrieved: {}", errorMessage);
@@ -131,20 +130,20 @@ public class LoginPage {
 		enterPassword(TestContext.testData.get("password"));
 
 		switch (method.toLowerCase().trim()) {
-			case "submits the login form":
-			case "initiates login":
-			case "submits the login form with mouse click":
-				clickLoginButton();
-				break;
+		case "submits the login form":
+		case "initiates login":
+		case "submits the login form with mouse click":
+			clickLoginButton();
+			break;
 
-			case "presses enter":
-			case "confirms login using enter":
-				pressEnterToSubmit();
-				break;
+		case "presses enter":
+		case "confirms login using enter":
+			pressEnterToSubmit();
+			break;
 
-			default:
-				logger.error("Unknown submission method: {}", method);
-				throw new IllegalArgumentException("Unknown submission method: " + method);
+		default:
+			logger.error("Unknown submission method: {}", method);
+			throw new IllegalArgumentException("Unknown submission method: " + method);
 		}
 	}
 
@@ -170,23 +169,18 @@ public class LoginPage {
 	public List<String> getButtonText() {
 		logger.info("Fetching login page button texts.");
 
-		return buttonElements.stream()
-				.map(btn -> {
-					String text = btn.getText();
-					if (text == null || text.isEmpty())
-						text = btn.getAttribute("value");
-					return text != null ? text.trim() : "";
-				})
-				.filter(s -> !s.isEmpty())
-				.toList();
+		return buttonElements.stream().map(btn -> {
+			String text = btn.getText();
+			if (text == null || text.isEmpty())
+				text = btn.getAttribute("value");
+			return text != null ? text.trim() : "";
+		}).filter(s -> !s.isEmpty()).toList();
 	}
 
 	public List<String> getLoginLabelNames() {
 		logger.info("Fetching login page label names.");
 
-		return labelList.stream()
-				.map(WebElement::getText)
-				.map(String::trim)
-				.toList();
+		return labelList.stream().map(WebElement::getText).map(String::trim).toList();
 	}
+
 }

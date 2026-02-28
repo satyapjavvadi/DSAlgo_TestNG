@@ -1,13 +1,12 @@
 package Test;
 
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.Properties;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.annotations.AfterClass; 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
@@ -19,22 +18,22 @@ import pages.PageObjectManager;
 import utils.ConfigReader;
 import utils.ExcelReader;
 
-
 public class Hooks {
-	
-     Logger logger = LogManager.getLogger(getClass());
-     PageObjectManager pom;
-	
+
+	Logger logger = LogManager.getLogger(getClass());
+	PageObjectManager pom;
+	protected Properties prop;
+
 	@BeforeSuite(alwaysRun = true)
 	@Parameters("browserName")
 	public void setBrowser(@Optional("chrome") String browserName) {
-		
-		logger.info("Before Suite : set Browser : {}",browserName);
-		DriverFactory.setBrowser(browserName);
-		
-		pom= new PageObjectManager();
 
-		Properties prop = ConfigReader.initializeProperties();
+		logger.info("Before Suite : set Browser : {}", browserName);
+		DriverFactory.setBrowser(browserName);
+
+		pom = new PageObjectManager();
+
+	    prop = ConfigReader.initializeProperties();
 		logger.debug("Loaded configuration properties");
 
 		ExcelReader.readDataFromExcel(prop.getProperty("loginsheetName"));
@@ -42,33 +41,31 @@ public class Hooks {
 		ExcelReader.readDataFromExcel(prop.getProperty("ArrayPractice"));
 		logger.info("Excel test data loaded");
 	}
-	
+
 	@BeforeClass
 	public void setUp() {
 		logger.info("Before Class : Initialize Browser ");
-				DriverFactory.launchBrowser();
-				
+		DriverFactory.launchBrowser();
+
 		Test testAnnotationTest = getClass().getAnnotation(Test.class);
-		
-		if(testAnnotationTest != null) {
+
+		if (testAnnotationTest != null) {
 			List<String> groups = Arrays.asList(testAnnotationTest.groups());
-			if(groups.contains("Get Started")) {
+			if (groups.contains("Get Started")) {
 				pom.getLaunchPage().clickGetStartedButton();
 			}
-			if(groups.contains("Sign in")) {
+			if (groups.contains("Sign in")) {
 				pom.getHomePage().clickSignInButton();
 				logger.info("Clicked Sign In button");
 
 				pom.getLoginPage().login("Submits the login form", "valid_login");
 				logger.info("Performed login with valid credentials");
 			}
-			
-					}
-		
-		
+
+		}
+
 	}
-	
-	
+
 	@AfterClass
 	public void tearDown() {
 		if (DriverFactory.getDriver() != null) {
