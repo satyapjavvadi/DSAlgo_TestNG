@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-26T23:12:13 PST" name="Default suite" finished-at="2026-02-26T23:12:16 PST" duration-ms="3275">
+  <suite started-at="2026-02-27T22:33:16 PST" name="Default suite" finished-at="2026-02-27T22:35:52 PST" duration-ms="156649">
     <groups>
     </groups>
-    <test started-at="2026-02-26T23:12:13 PST" name="Default test" finished-at="2026-02-26T23:12:16 PST" duration-ms="3275">
-      <class name="Test.TC01_launch">
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:12 PST" name="setBrowser" finished-at="2026-02-26T23:12:13 PST" duration-ms="1032" status="PASS">
+    <test started-at="2026-02-27T22:33:16 PST" name="Default test" finished-at="2026-02-27T22:35:52 PST" duration-ms="156649">
+      <class name="Test.TC03_Login">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:33:15 PST" name="setBrowser" finished-at="2026-02-27T22:33:16 PST" duration-ms="560" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,49 +18,309 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:13 PST" name="setUp" finished-at="2026-02-26T23:12:15 PST" duration-ms="2498" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:33:16 PST" name="setUp" finished-at="2026-02-27T22:33:19 PST" duration-ms="2885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyButtonCount()[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:15 PST" name="verifyButtonCount" finished-at="2026-02-26T23:12:15 PST" duration-ms="175" status="PASS">
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:33:19 PST" name="openLoginPage" finished-at="2026-02-27T22:33:30 PST" duration-ms="11692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyButtonCount()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:33:30 PST" name="verifyButtonCount" finished-at="2026-02-27T22:33:30 PST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyButtonCount -->
-        <test-method signature="verifyButtonText()[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:15 PST" name="verifyButtonText" finished-at="2026-02-26T23:12:15 PST" duration-ms="75" status="PASS">
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:33:30 PST" name="openLoginPage" finished-at="2026-02-27T22:33:41 PST" duration-ms="10415" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyButtonText -->
-        <test-method signature="verifyContentText(java.lang.String)[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:15 PST" name="verifyContentText" data-provider="launchPageText" finished-at="2026-02-26T23:12:16 PST" duration-ms="14" status="PASS">
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyInputFieldCount()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:33:41 PST" name="verifyInputFieldCount" finished-at="2026-02-27T22:33:41 PST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputFieldCount -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:33:41 PST" name="openLoginPage" finished-at="2026-02-27T22:33:52 PST" duration-ms="10578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:33:52 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-02-27T22:33:52 PST" duration-ms="154" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Preparing for the Interviews]]>
+                <![CDATA[Null value in cred]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[submits the login form]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[username field]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContentText -->
-        <test-method signature="verifyContentText(java.lang.String)[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:16 PST" name="verifyContentText" data-provider="launchPageText" finished-at="2026-02-26T23:12:16 PST" duration-ms="20" status="PASS">
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:33:52 PST" name="openLoginPage" finished-at="2026-02-27T22:34:02 PST" duration-ms="10506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:34:02 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-02-27T22:34:02 PST" duration-ms="140" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Copyright@NumpyNinja2021]]>
+                <![CDATA[Null value in cred]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[presses Enter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[username field]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContentText -->
-        <test-method signature="verifyTitle()[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:16 PST" name="verifyTitle" finished-at="2026-02-26T23:12:16 PST" duration-ms="31" status="PASS">
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:34:02 PST" name="openLoginPage" finished-at="2026-02-27T22:34:13 PST" duration-ms="10422" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.TC01_launch@182b435b]" started-at="2026-02-26T23:12:16 PST" name="tearDown" finished-at="2026-02-26T23:12:16 PST" duration-ms="352" status="PASS">
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:34:13 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-02-27T22:34:13 PST" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Null value in password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[submits the login form]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password field]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:34:13 PST" name="openLoginPage" finished-at="2026-02-27T22:34:23 PST" duration-ms="10523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:34:23 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-02-27T22:34:24 PST" duration-ms="306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Null value in password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[presses Enter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password field]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:34:24 PST" name="openLoginPage" finished-at="2026-02-27T22:34:34 PST" duration-ms="10397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:34:34 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-02-27T22:34:34 PST" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Null value in username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[submits the login form]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[username field]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:34:34 PST" name="openLoginPage" finished-at="2026-02-27T22:34:45 PST" duration-ms="10473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:34:45 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-02-27T22:34:45 PST" duration-ms="193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Null value in username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[presses Enter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[username field]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:34:45 PST" name="openLoginPage" finished-at="2026-02-27T22:34:56 PST" duration-ms="10509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:34:56 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-02-27T22:34:56 PST" duration-ms="433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[initiates login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alert]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:34:56 PST" name="openLoginPage" finished-at="2026-02-27T22:35:06 PST" duration-ms="10498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:35:06 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-02-27T22:35:07 PST" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[initiates login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alert]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:35:07 PST" name="openLoginPage" finished-at="2026-02-27T22:35:17 PST" duration-ms="10551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginButtonText()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:35:17 PST" name="verifyLoginButtonText" finished-at="2026-02-27T22:35:17 PST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonText -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:35:17 PST" name="openLoginPage" finished-at="2026-02-27T22:35:28 PST" duration-ms="10541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginLabels(java.lang.String)[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:35:28 PST" name="verifyLoginLabels" data-provider="loginLabels" finished-at="2026-02-27T22:35:28 PST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username:]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginLabels -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:35:28 PST" name="openLoginPage" finished-at="2026-02-27T22:35:39 PST" duration-ms="10489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginLabels(java.lang.String)[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:35:39 PST" name="verifyLoginLabels" data-provider="loginLabels" finished-at="2026-02-27T22:35:39 PST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Password:]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginLabels -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:35:39 PST" name="openLoginPage" finished-at="2026-02-27T22:35:49 PST" duration-ms="10436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyValidLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:35:49 PST" name="verifyValidLogin" data-provider="validLoginData" finished-at="2026-02-27T22:35:50 PST" duration-ms="1138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Submits the login form]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid_login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:35:50 PST" name="openLoginPage" finished-at="2026-02-27T22:35:51 PST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyValidLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:35:51 PST" name="verifyValidLogin" data-provider="validLoginData" finished-at="2026-02-27T22:35:52 PST" duration-ms="996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[confirms login using Enter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid_login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.TC03_Login@28a2a3e7]" started-at="2026-02-27T22:35:52 PST" name="tearDown" finished-at="2026-02-27T22:35:52 PST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test.TC01_launch -->
+      </class> <!-- Test.TC03_Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

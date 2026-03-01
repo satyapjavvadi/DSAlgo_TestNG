@@ -60,6 +60,9 @@ public class HomePage {
 
 	@FindBy(css = "div.alert[role='alert']")
 	private WebElement alert;
+	
+	@FindBy(xpath = "//a[@href='/logout']") 
+	private WebElement signOutButton;
 
 	public HomePage() {
 		this.driver = DriverFactory.getDriver();
@@ -201,5 +204,21 @@ public class HomePage {
 
 			}
 		}
+	}
+	
+	public boolean isSignOutVisible() { 
+		try {
+			return signOutButton.isDisplayed();
+		} catch(Exception e) {
+			return false;
+		}
+	}
+	
+	public void clickSignOutButton() {
+	    try {
+	        signOutButton.click();
+	    } catch (Exception e) {
+	        logger.warn("Sign Out button not found.");
+	    }
 	}
 }
