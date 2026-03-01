@@ -14,7 +14,7 @@ public class LoginData {
 				};
 	}
 	@DataProvider(name ="negativeData")
-     public Object[][] getInvalidLogindata(){
+     public Object[][] getInvalidLoginData(){
     	 return new Object[][] {
     		 {"Null value in cred", "submits the login form", "username field"}, 
     		 {"Null value in cred", "presses Enter", "username field"}, 
