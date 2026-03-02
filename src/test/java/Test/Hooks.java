@@ -8,6 +8,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
@@ -53,6 +54,7 @@ public class Hooks {
 			List<String> groups = Arrays.asList(testAnnotationTest.groups());
 			if (groups.contains("Get Started")) {
 				pom.getLaunchPage().clickGetStartedButton();
+
 			}
 			if (groups.contains("Sign in")) {
 				pom.getHomePage().clickSignInButton();

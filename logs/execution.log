@@ -1,0 +1,672 @@
+2026-02-26 10:56:25 [main] INFO  Test.Hooks - Before Suite : set Browser : chrome
+2026-02-26 10:56:25 [main] INFO  Test.Hooks - Before Class : Initilize Browser 
+2026-02-26 10:56:25 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-26 10:56:30 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-26 10:56:32 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-26 10:56:32 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-26 10:56:32 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-26 23:08:43 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-26 23:08:44 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-02-26 23:20:36 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-26 23:20:38 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-26 23:20:38 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-26 23:20:38 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-26 23:20:41 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-26 23:20:42 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-26 23:20:42 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-26 23:20:42 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-26 23:20:42 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-26 23:21:02 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-02-26 23:21:13 [main] INFO  pages.RegisterPage - Total input fields found: 0
+2026-02-26 23:21:13 [main] INFO  Test.TC04_Register - Verifying number of input fields in Register UI : 0
+2026-02-26 23:21:23 [main] INFO  pages.RegisterPage - Total input fields found: 0
+2026-02-26 23:21:23 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-26 23:21:23 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 11:06:52 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 11:06:54 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 11:06:54 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 11:06:54 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 11:07:01 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 11:07:02 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 11:07:02 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 11:07:02 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 11:07:02 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-27 11:07:23 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-02-27 11:07:33 [main] INFO  pages.RegisterPage - Total input fields found: 0
+2026-02-27 11:07:33 [main] INFO  Test.TC04_Register - Verifying number of input fields in Register UI : 0
+2026-02-27 11:07:33 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 11:07:34 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 11:14:49 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 11:14:51 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 11:14:51 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 11:14:51 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 11:14:55 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 11:14:56 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 11:14:56 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 11:14:56 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 11:14:57 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 11:14:57 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 11:23:50 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 11:23:52 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 11:23:52 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 11:23:52 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 11:23:56 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 11:23:57 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 11:23:57 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 11:23:57 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 11:23:58 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 11:23:58 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 11:26:49 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 11:26:50 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 11:26:50 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 11:26:50 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 11:26:55 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 11:26:56 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 11:26:56 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 11:26:56 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 11:26:56 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-27 11:27:17 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 11:27:18 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 11:31:14 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 11:31:15 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 11:31:15 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 11:31:15 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 11:31:19 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 11:31:21 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 11:31:21 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 11:31:21 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 11:31:21 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-27 11:31:41 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 11:31:42 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 12:02:57 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 12:03:00 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 12:03:00 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 12:03:00 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 12:03:06 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 12:03:07 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 12:03:07 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 12:03:08 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 12:03:08 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-27 12:03:28 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 12:03:29 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 14:01:02 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 14:01:04 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 14:01:04 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 14:01:04 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 14:01:09 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 14:01:11 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 14:01:11 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 14:01:11 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 14:01:12 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-27 14:01:32 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 14:01:33 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 14:09:33 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 14:09:35 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 14:09:35 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 14:09:35 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 14:09:40 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 14:09:41 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 14:09:41 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 14:09:41 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 14:09:41 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-27 14:10:02 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-02-27 14:10:12 [main] INFO  pages.RegisterPage - Total input fields found: 0
+2026-02-27 14:10:12 [main] INFO  Test.TC04_Register - Verifying number of input fields in Register UI : 0
+2026-02-27 14:10:12 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 14:10:12 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 14:33:18 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 14:33:20 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 14:33:20 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 14:33:20 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 14:33:24 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 14:33:25 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 14:33:25 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 14:33:25 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 14:33:26 [main] INFO  Test.TC04_Register - Clicking Get Started button
+2026-02-27 14:33:26 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-27 14:33:27 [main] INFO  Test.TC04_Register - Clicked link 'Register' on Home Page
+2026-02-27 14:33:27 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 14:33:28 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 14:35:00 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 14:35:02 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 14:35:02 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 14:35:02 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 14:35:06 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 14:35:07 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 14:35:07 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 14:35:07 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 14:35:07 [main] INFO  Test.TC04_Register - Clicking Get Started button
+2026-02-27 14:35:08 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-27 14:35:09 [main] INFO  Test.TC04_Register - Clicked link 'Register' on Home Page
+2026-02-27 14:35:09 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 14:35:10 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 14:36:23 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 14:36:25 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 14:36:25 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 14:36:25 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 14:36:29 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 14:36:30 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 14:36:30 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 14:36:30 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 14:36:30 [main] INFO  Test.TC04_Register - Clicking Get Started button
+2026-02-27 14:36:31 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-27 14:36:32 [main] INFO  Test.TC04_Register - Clicked link 'Register' on Home Page
+2026-02-27 14:36:32 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-02-27 14:36:32 [main] INFO  pages.RegisterPage - Total input fields found: 3
+2026-02-27 14:36:32 [main] INFO  Test.TC04_Register - Verifying number of input fields in Register UI : 3
+2026-02-27 14:36:32 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 14:36:33 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 14:37:13 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 14:37:15 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 14:37:15 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 14:37:15 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 14:37:19 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 14:37:20 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 14:37:21 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 14:37:21 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 14:37:21 [main] INFO  Test.TC04_Register - Clicking Get Started button
+2026-02-27 14:37:23 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-27 14:37:23 [main] INFO  Test.TC04_Register - Clicked link 'Register' on Home Page
+2026-02-27 14:37:24 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-02-27 14:37:24 [main] INFO  pages.RegisterPage - Total input fields found: 3
+2026-02-27 14:37:24 [main] INFO  Test.TC04_Register - Verifying number of input fields in Register UI : 3
+2026-02-27 14:37:24 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 14:37:24 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 14:38:04 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 14:38:06 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 14:38:06 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 14:38:06 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 14:38:10 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 14:38:12 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 14:38:12 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 14:38:12 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 14:38:12 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-27 14:38:33 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-02-27 14:38:43 [main] INFO  pages.RegisterPage - Total input fields found: 0
+2026-02-27 14:38:43 [main] INFO  Test.TC04_Register - Verifying number of input fields in Register UI : 0
+2026-02-27 14:38:43 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 14:38:43 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 15:01:04 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 15:01:07 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 15:01:07 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 15:01:07 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 15:01:12 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 15:01:12 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 15:01:13 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 15:01:13 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 15:01:14 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-27 15:01:14 [main] INFO  Test.TC04_Register - Clicked link 'Register' on Home Page
+2026-02-27 15:01:14 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 15:01:17 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 15:45:39 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 15:45:41 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 15:45:41 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 15:45:41 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 15:45:45 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 15:45:46 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 15:45:46 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 15:45:46 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 15:45:48 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-27 15:45:48 [main] INFO  Test.TC04_Register - Clicked link 'Register' on Home Page
+2026-02-27 15:45:49 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-02-27 15:45:49 [main] INFO  pages.RegisterPage - Total input fields found: 3
+2026-02-27 15:45:49 [main] INFO  Test.TC04_Register - Verifying number of input fields in Register UI : 3
+2026-02-27 15:45:49 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 15:45:50 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 15:59:07 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 15:59:08 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 15:59:08 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 15:59:08 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 15:59:12 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 15:59:13 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 15:59:13 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 15:59:13 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 15:59:14 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-27 15:59:14 [main] INFO  Test.TC04_Register - Clicked link 'Register' on Home Page
+2026-02-27 15:59:15 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-02-27 15:59:15 [main] INFO  pages.RegisterPage - Fetching register page links.
+2026-02-27 15:59:15 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-02-27 15:59:15 [main] INFO  pages.RegisterPage - Total input fields found: 3
+2026-02-27 15:59:15 [main] INFO  Test.TC04_Register - Verifying number of input fields in Register UI : 3
+2026-02-27 15:59:15 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 15:59:15 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 16:12:16 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 16:12:18 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 16:12:18 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 16:12:18 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 16:12:22 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 16:12:24 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 16:12:24 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 16:12:24 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 16:12:25 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-02-27 16:12:25 [main] INFO  pages.RegisterPage - Fetching register page links.
+2026-02-27 16:12:25 [main] INFO  Test.TC04_Register - Actual labels found   : [, Register, Sign in]
+2026-02-27 16:12:25 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-02-27 16:12:25 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 16:12:26 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-27 16:12:46 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-27 16:12:48 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-27 16:12:48 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-27 16:12:48 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-27 16:12:52 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-27 16:12:53 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-27 16:12:53 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-27 16:12:53 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-27 16:12:54 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-27 16:12:55 [main] INFO  Test.TC04_Register - Clicked link 'Register' on Home Page
+2026-02-27 16:12:55 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-02-27 16:12:55 [main] INFO  pages.RegisterPage - Fetching register page links.
+2026-02-27 16:12:55 [main] INFO  Test.TC04_Register - Actual labels found   : [, Register, Sign in]
+2026-02-27 16:12:55 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-02-27 16:12:55 [main] INFO  pages.RegisterPage - Total input fields found: 3
+2026-02-27 16:12:55 [main] INFO  Test.TC04_Register - Verifying number of input fields in Register UI : 3
+2026-02-27 16:12:55 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-27 16:12:56 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-28 22:20:21 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-28 22:20:22 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-28 22:20:22 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-28 22:20:22 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-28 22:20:26 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-28 22:20:27 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-28 22:20:27 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-28 22:20:27 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-28 22:20:28 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-28 22:20:28 [main] INFO  Test.TC04_Register - Clicked link 'Register' on Home Page
+2026-02-28 22:20:28 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-02-28 22:20:28 [main] INFO  pages.RegisterPage - Total input fields found: 3
+2026-02-28 22:20:28 [main] INFO  Test.TC04_Register - Verifying number of input fields in Register UI : 3
+2026-02-28 22:20:28 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-02-28 22:20:28 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-02-28 22:20:28 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-02-28 22:20:28 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-02-28 22:20:28 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-02-28 22:20:29 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-02-28 22:20:29 [main] INFO  pages.RegisterPage - Total buttons found: 1
+2026-02-28 22:20:29 [main] INFO  Test.TC04_Register - Validating button count in Register UI
+2026-02-28 22:20:29 [main] INFO  pages.RegisterPage - Fetching register page button texts.
+2026-02-28 22:20:29 [main] INFO  Test.TC04_Register - Checking button text in Register UI
+2026-02-28 22:20:29 [main] INFO  pages.RegisterPage - Fetching register page links.
+2026-02-28 22:20:29 [main] INFO  Test.TC04_Register - Validating Register page linktext
+2026-02-28 22:20:29 [main] INFO  pages.RegisterPage - Fetching register page links.
+2026-02-28 22:20:29 [main] INFO  Test.TC04_Register - Validating Register page linktext
+2026-02-28 22:20:29 [main] INFO  pages.RegisterPage - Company name displayed: NumpyNinja
+2026-02-28 22:20:29 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-28 22:20:29 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-28 22:21:23 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-28 22:21:24 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-28 22:21:24 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-28 22:21:24 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-28 22:21:27 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-28 22:21:28 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-28 22:21:28 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-28 22:21:28 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-28 22:21:29 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-28 22:21:29 [main] INFO  Test.TC04_Register - Clicked link 'Register' on Home Page
+2026-02-28 22:21:29 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-02-28 22:21:29 [main] INFO  pages.RegisterPage - Total input fields found: 3
+2026-02-28 22:21:29 [main] INFO  Test.TC04_Register - Verifying number of input fields in Register UI : 3
+2026-02-28 22:21:29 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-02-28 22:21:30 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-02-28 22:21:30 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-02-28 22:21:30 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-02-28 22:21:30 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-02-28 22:21:30 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-02-28 22:21:30 [main] INFO  pages.RegisterPage - Total buttons found: 1
+2026-02-28 22:21:30 [main] INFO  Test.TC04_Register - Validating button count in Register UI
+2026-02-28 22:21:30 [main] INFO  pages.RegisterPage - Fetching register page button texts.
+2026-02-28 22:21:30 [main] INFO  Test.TC04_Register - Checking button text in Register UI
+2026-02-28 22:21:30 [main] INFO  pages.RegisterPage - Fetching register page links.
+2026-02-28 22:21:30 [main] INFO  Test.TC04_Register - Validating Register page linktext
+2026-02-28 22:21:30 [main] INFO  pages.RegisterPage - Fetching register page links.
+2026-02-28 22:21:30 [main] INFO  Test.TC04_Register - Validating Register page linktext
+2026-02-28 22:21:30 [main] INFO  pages.RegisterPage - Company name displayed: NumpyNinja
+2026-02-28 22:21:30 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-28 22:21:30 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-02-28 22:34:45 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-02-28 22:34:46 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-02-28 22:34:46 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-02-28 22:34:46 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-02-28 22:34:49 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-02-28 22:34:50 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-02-28 22:34:50 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-02-28 22:34:50 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-02-28 22:34:51 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-02-28 22:34:51 [main] INFO  Test.TC04_Register - Clicked link 'Register' on Home Page
+2026-02-28 22:34:51 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-02-28 22:34:51 [main] INFO  pages.RegisterPage - Total input fields found: 3
+2026-02-28 22:34:51 [main] INFO  Test.TC04_Register - Verifying number of input fields in Register UI : 3
+2026-02-28 22:34:51 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-02-28 22:34:51 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-02-28 22:34:51 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-02-28 22:34:51 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-02-28 22:34:51 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-02-28 22:34:51 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-02-28 22:34:51 [main] INFO  pages.RegisterPage - Total buttons found: 1
+2026-02-28 22:34:51 [main] INFO  Test.TC04_Register - Validating button count in Register UI
+2026-02-28 22:34:51 [main] INFO  pages.RegisterPage - Fetching register page button texts.
+2026-02-28 22:34:51 [main] INFO  Test.TC04_Register - Checking button text in Register UI
+2026-02-28 22:34:51 [main] INFO  pages.RegisterPage - Fetching register page links.
+2026-02-28 22:34:52 [main] INFO  Test.TC04_Register - Validating Register page linktext
+2026-02-28 22:34:52 [main] INFO  pages.RegisterPage - Fetching register page links.
+2026-02-28 22:34:52 [main] INFO  Test.TC04_Register - Validating Register page linktext
+2026-02-28 22:34:52 [main] INFO  pages.RegisterPage - Company name displayed: NumpyNinja
+2026-02-28 22:34:52 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-02-28 22:34:52 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-02-28 22:34:52 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-02-28 22:34:52 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-02-28 22:34:52 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-02-28 22:34:52 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-02-28 22:34:52 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-02-28 22:34:52 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-02-28 22:34:52 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-02-28 22:34:52 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-03-01 13:05:26 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-03-01 13:05:28 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-03-01 13:05:28 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-03-01 13:05:28 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-03-01 13:05:33 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-03-01 13:05:34 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-03-01 13:05:34 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-03-01 13:05:34 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-03-01 13:05:35 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-03-01 13:05:36 [main] INFO  Test.TC04_Register - Clicked link 'Register' on Home Page
+2026-03-01 13:05:36 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-03-01 13:05:36 [main] INFO  pages.RegisterPage - Total input fields found: 3
+2026-03-01 13:05:36 [main] INFO  Test.TC04_Register - Verifying number of input fields in Register UI : 3
+2026-03-01 13:05:36 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-03-01 13:05:36 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-03-01 13:05:36 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-03-01 13:05:36 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-03-01 13:05:36 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-03-01 13:05:36 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-03-01 13:05:36 [main] INFO  pages.RegisterPage - Total buttons found: 1
+2026-03-01 13:05:36 [main] INFO  Test.TC04_Register - Validating button count in Register UI
+2026-03-01 13:05:36 [main] INFO  pages.RegisterPage - Fetching register page button texts.
+2026-03-01 13:05:37 [main] INFO  Test.TC04_Register - Checking button text in Register UI
+2026-03-01 13:05:37 [main] INFO  pages.RegisterPage - Fetching register page links.
+2026-03-01 13:05:37 [main] INFO  Test.TC04_Register - Validating Register page linktext
+2026-03-01 13:05:37 [main] INFO  pages.RegisterPage - Fetching register page links.
+2026-03-01 13:05:37 [main] INFO  Test.TC04_Register - Validating Register page linktext
+2026-03-01 13:05:37 [main] INFO  pages.RegisterPage - Company name displayed: NumpyNinja
+2026-03-01 13:05:37 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-03-01 13:05:37 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-03-01 13:05:37 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-03-01 13:05:37 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-03-01 13:05:37 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-03-01 13:05:37 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-03-01 13:05:37 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-03-01 13:05:38 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-03-01 13:05:38 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='Null value in  username for register', submissionMethod='submits the register form', message='Please fill out this field.'
+2026-03-01 13:05:38 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: Null value in  username for register
+2026-03-01 13:05:38 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 13:05:38 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 13:05:39 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 13:05:39 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 13:05:39 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: Null value in  username for register
+2026-03-01 13:05:39 [main] INFO  pages.RegisterPage - Validation tooltip found: Please fill out this field.
+2026-03-01 13:05:39 [main] INFO  Test.TC04_Register - Validating error message for scenario 'Null value in  username for register'. Expected: 'Please fill out this field.', Actual: 'Please fill out this field.'
+2026-03-01 13:05:39 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='Null value in password for register', submissionMethod='submits the register form', message='Please fill out this field.'
+2026-03-01 13:05:39 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: Null value in password for register
+2026-03-01 13:05:39 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 13:05:39 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 13:05:39 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 13:05:39 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 13:05:40 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: Null value in password for register
+2026-03-01 13:05:40 [main] INFO  pages.RegisterPage - Validation tooltip found: Please fill out this field.
+2026-03-01 13:05:40 [main] INFO  Test.TC04_Register - Validating error message for scenario 'Null value in password for register'. Expected: 'Please fill out this field.', Actual: 'Please fill out this field.'
+2026-03-01 13:05:40 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='Null value in  confirm password for register', submissionMethod='submits the register form', message='Please fill out this field.'
+2026-03-01 13:05:40 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: Null value in  confirm password for register
+2026-03-01 13:05:40 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 13:05:40 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 13:05:40 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 13:05:40 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 13:05:41 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: Null value in  confirm password for register
+2026-03-01 13:05:41 [main] INFO  pages.RegisterPage - Validation tooltip found: Please fill out this field.
+2026-03-01 13:05:41 [main] INFO  Test.TC04_Register - Validating error message for scenario 'Null value in  confirm password for register'. Expected: 'Please fill out this field.', Actual: 'Please fill out this field.'
+2026-03-01 13:05:41 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='with specialcharacter password for register', submissionMethod='submits the register form', message='Password does not match requirement'
+2026-03-01 13:05:41 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: with specialcharacter password for register
+2026-03-01 13:05:41 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 13:05:41 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 13:05:42 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 13:05:42 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 13:05:42 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: with specialcharacter password for register
+2026-03-01 13:05:42 [main] INFO  pages.RegisterPage - Alert message found: password_mismatch:The two password fields didn’t match.
+2026-03-01 13:05:42 [main] INFO  Test.TC04_Register - Validating error message for scenario 'with specialcharacter password for register'. Expected: 'Password does not match requirement', Actual: 'password_mismatch:The two password fields didn’t match.'
+2026-03-01 13:05:42 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='with password less then eight characters for register', submissionMethod='submits the register form', message='Password does not match requirement'
+2026-03-01 13:05:42 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: with password less then eight characters for register
+2026-03-01 13:05:42 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 13:05:42 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 13:05:43 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 13:05:43 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 13:05:43 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: with password less then eight characters for register
+2026-03-01 13:05:43 [main] INFO  pages.RegisterPage - Alert message found: password_mismatch:The two password fields didn’t match.
+2026-03-01 13:05:43 [main] INFO  Test.TC04_Register - Validating error message for scenario 'with password less then eight characters for register'. Expected: 'Password does not match requirement', Actual: 'password_mismatch:The two password fields didn’t match.'
+2026-03-01 13:05:43 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='with mismatch password for register', submissionMethod='submits the register form', message='password_mismatch:The two password fields didn’t match.'
+2026-03-01 13:05:43 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: with mismatch password for register
+2026-03-01 13:05:43 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 13:05:43 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 13:05:44 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 13:05:44 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 13:05:44 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: with mismatch password for register
+2026-03-01 13:05:44 [main] INFO  pages.RegisterPage - Alert message found: password_mismatch:The two password fields didn’t match.
+2026-03-01 13:05:44 [main] INFO  Test.TC04_Register - Validating error message for scenario 'with mismatch password for register'. Expected: 'password_mismatch:The two password fields didn’t match.', Actual: 'password_mismatch:The two password fields didn’t match.'
+2026-03-01 13:05:44 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='with specialcharacter username for register', submissionMethod='submits the register form', message='Username must be alphanumeric'
+2026-03-01 13:05:44 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: with specialcharacter username for register
+2026-03-01 13:05:44 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 13:05:44 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 13:05:44 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 13:05:44 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 13:05:45 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: with specialcharacter username for register
+2026-03-01 13:05:45 [main] INFO  pages.RegisterPage - Alert message found: password_mismatch:The two password fields didn’t match.
+2026-03-01 13:05:45 [main] INFO  Test.TC04_Register - Validating error message for scenario 'with specialcharacter username for register'. Expected: 'Username must be alphanumeric', Actual: 'password_mismatch:The two password fields didn’t match.'
+2026-03-01 13:05:45 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-03-01 13:05:46 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-03-01 21:36:59 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-03-01 21:37:00 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-03-01 21:37:00 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-03-01 21:37:00 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-03-01 21:37:04 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-03-01 21:37:05 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-03-01 21:37:05 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-03-01 21:37:05 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-03-01 21:37:06 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-03-01 21:37:06 [main] INFO  Test.TC04_Register - Clicked link 'Register' on Home Page
+2026-03-01 21:37:06 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-03-01 21:37:06 [main] INFO  pages.RegisterPage - Total input fields found: 3
+2026-03-01 21:37:06 [main] INFO  Test.TC04_Register - Verifying number of input fields in Register UI : 3
+2026-03-01 21:37:06 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-03-01 21:37:06 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-03-01 21:37:06 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-03-01 21:37:06 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-03-01 21:37:06 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-03-01 21:37:07 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-03-01 21:37:07 [main] INFO  pages.RegisterPage - Total buttons found: 1
+2026-03-01 21:37:07 [main] INFO  Test.TC04_Register - Validating button count in Register UI
+2026-03-01 21:37:07 [main] INFO  pages.RegisterPage - Fetching register page button texts.
+2026-03-01 21:37:07 [main] INFO  Test.TC04_Register - Checking button text in Register UI
+2026-03-01 21:37:07 [main] INFO  pages.RegisterPage - Fetching register page links.
+2026-03-01 21:37:07 [main] INFO  Test.TC04_Register - Validating Register page linktext
+2026-03-01 21:37:07 [main] INFO  pages.RegisterPage - Fetching register page links.
+2026-03-01 21:37:07 [main] INFO  Test.TC04_Register - Validating Register page linktext
+2026-03-01 21:37:07 [main] INFO  pages.RegisterPage - Company name displayed: NumpyNinja
+2026-03-01 21:37:07 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-03-01 21:37:07 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-03-01 21:37:07 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-03-01 21:37:07 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-03-01 21:37:07 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-03-01 21:37:07 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-03-01 21:37:07 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-03-01 21:37:07 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-03-01 21:37:07 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='Null value in  username for register', submissionMethod='submits the register form', message='Please fill out this field.'
+2026-03-01 21:37:07 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: Null value in  username for register
+2026-03-01 21:37:07 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 21:37:07 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 21:37:08 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 21:37:08 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 21:37:08 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: Null value in  username for register
+2026-03-01 21:37:08 [main] INFO  pages.RegisterPage - Validation tooltip found: Please fill out this field.
+2026-03-01 21:37:08 [main] INFO  Test.TC04_Register - Validating error message for scenario 'Null value in  username for register'. Expected: 'Please fill out this field.', Actual: 'Please fill out this field.'
+2026-03-01 21:37:08 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='Null value in password for register', submissionMethod='submits the register form', message='Please fill out this field.'
+2026-03-01 21:37:08 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: Null value in password for register
+2026-03-01 21:37:08 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 21:37:08 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 21:37:08 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 21:37:08 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 21:37:08 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: Null value in password for register
+2026-03-01 21:37:08 [main] INFO  pages.RegisterPage - Validation tooltip found: Please fill out this field.
+2026-03-01 21:37:08 [main] INFO  Test.TC04_Register - Validating error message for scenario 'Null value in password for register'. Expected: 'Please fill out this field.', Actual: 'Please fill out this field.'
+2026-03-01 21:37:08 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='Null value in  confirm password for register', submissionMethod='submits the register form', message='Please fill out this field.'
+2026-03-01 21:37:08 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: Null value in  confirm password for register
+2026-03-01 21:37:09 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 21:37:09 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 21:37:09 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 21:37:09 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 21:37:09 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: Null value in  confirm password for register
+2026-03-01 21:37:09 [main] INFO  pages.RegisterPage - Validation tooltip found: Please fill out this field.
+2026-03-01 21:37:09 [main] INFO  Test.TC04_Register - Validating error message for scenario 'Null value in  confirm password for register'. Expected: 'Please fill out this field.', Actual: 'Please fill out this field.'
+2026-03-01 21:37:09 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='with specialcharacter password for register', submissionMethod='submits the register form', message='Password does not match requirement'
+2026-03-01 21:37:09 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: with specialcharacter password for register
+2026-03-01 21:37:09 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 21:37:09 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 21:37:09 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 21:37:09 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 21:37:09 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: with specialcharacter password for register
+2026-03-01 21:37:10 [main] INFO  pages.RegisterPage - Alert message found: password_mismatch:The two password fields didn’t match.
+2026-03-01 21:37:10 [main] INFO  Test.TC04_Register - Validating error message for scenario 'with specialcharacter password for register'. Expected: 'Password does not match requirement', Actual: 'password_mismatch:The two password fields didn’t match.'
+2026-03-01 21:37:10 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='with password less then eight characters for register', submissionMethod='submits the register form', message='Password does not match requirement'
+2026-03-01 21:37:10 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: with password less then eight characters for register
+2026-03-01 21:37:10 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 21:37:10 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 21:37:10 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 21:37:10 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 21:37:10 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: with password less then eight characters for register
+2026-03-01 21:37:10 [main] INFO  pages.RegisterPage - Alert message found: password_mismatch:The two password fields didn’t match.
+2026-03-01 21:37:10 [main] INFO  Test.TC04_Register - Validating error message for scenario 'with password less then eight characters for register'. Expected: 'Password does not match requirement', Actual: 'password_mismatch:The two password fields didn’t match.'
+2026-03-01 21:37:10 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='with mismatch password for register', submissionMethod='submits the register form', message='password_mismatch:The two password fields didn’t match.'
+2026-03-01 21:37:10 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: with mismatch password for register
+2026-03-01 21:37:10 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 21:37:11 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 21:37:11 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 21:37:11 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 21:37:11 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: with mismatch password for register
+2026-03-01 21:37:11 [main] WARN  pages.RegisterPage - No alert message displayed.
+2026-03-01 21:37:11 [main] INFO  Test.TC04_Register - Validating error message for scenario 'with mismatch password for register'. Expected: 'password_mismatch:The two password fields didn’t match.', Actual: 'NO_ERROR_FOUND'
+2026-03-01 21:37:11 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='with specialcharacter username for register', submissionMethod='submits the register form', message='Username must be alphanumeric'
+2026-03-01 21:37:11 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: with specialcharacter username for register
+2026-03-01 21:37:11 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 21:37:11 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 21:37:11 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 21:37:11 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 21:37:12 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: with specialcharacter username for register
+2026-03-01 21:37:12 [main] INFO  pages.RegisterPage - Alert message found: password_mismatch:The two password fields didn’t match.
+2026-03-01 21:37:12 [main] INFO  Test.TC04_Register - Validating error message for scenario 'with specialcharacter username for register'. Expected: 'Username must be alphanumeric', Actual: 'password_mismatch:The two password fields didn’t match.'
+2026-03-01 21:37:12 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-03-01 21:37:12 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal
+2026-03-01 21:50:02 [main] INFO  Test.TC04_Register - Before Suite : set Browser : chrome
+2026-03-01 21:50:03 [main] INFO  Test.TC04_Register - Excel test data loaded
+2026-03-01 21:50:03 [main] INFO  Test.TC04_Register - Before Class : Initilize Browser 
+2026-03-01 21:50:03 [main] INFO  DriverManager.DriverFactory - Launching browser: chrome
+2026-03-01 21:50:05 [main] INFO  DriverManager.DriverFactory - Chrome browser launched successfully.
+2026-03-01 21:50:07 [main] INFO  DriverManager.DriverFactory - Deleted all browser cookies.
+2026-03-01 21:50:07 [main] INFO  DriverManager.DriverFactory - Browser window maximized.
+2026-03-01 21:50:07 [main] INFO  DriverManager.DriverFactory - Implicit wait set to 10 seconds.
+2026-03-01 21:50:07 [main] INFO  Test.TC04_Register - Clicking Register link in home page
+2026-03-01 21:50:08 [main] INFO  Test.TC04_Register - Clicked link 'Register' on Home Page
+2026-03-01 21:50:08 [main] INFO  pages.RegisterPage - RegisterPage initialized successfully.
+2026-03-01 21:50:08 [main] INFO  pages.RegisterPage - Total input fields found: 3
+2026-03-01 21:50:08 [main] INFO  Test.TC04_Register - Verifying number of input fields in Register UI : 3
+2026-03-01 21:50:08 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-03-01 21:50:08 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-03-01 21:50:08 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-03-01 21:50:08 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-03-01 21:50:08 [main] INFO  pages.RegisterPage - Fetching register page label names.
+2026-03-01 21:50:08 [main] INFO  Test.TC04_Register - Validating Register page labels
+2026-03-01 21:50:08 [main] INFO  pages.RegisterPage - Total buttons found: 1
+2026-03-01 21:50:08 [main] INFO  Test.TC04_Register - Validating button count in Register UI
+2026-03-01 21:50:08 [main] INFO  pages.RegisterPage - Fetching register page button texts.
+2026-03-01 21:50:08 [main] INFO  Test.TC04_Register - Checking button text in Register UI
+2026-03-01 21:50:08 [main] INFO  pages.RegisterPage - Fetching register page links.
+2026-03-01 21:50:09 [main] INFO  Test.TC04_Register - Validating Register page linktext
+2026-03-01 21:50:09 [main] INFO  pages.RegisterPage - Fetching register page links.
+2026-03-01 21:50:09 [main] INFO  Test.TC04_Register - Validating Register page linktext
+2026-03-01 21:50:09 [main] INFO  pages.RegisterPage - Company name displayed: NumpyNinja
+2026-03-01 21:50:09 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-03-01 21:50:09 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-03-01 21:50:09 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-03-01 21:50:09 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-03-01 21:50:09 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-03-01 21:50:09 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-03-01 21:50:09 [main] INFO  pages.RegisterPage - Fetching password requirement text.
+2026-03-01 21:50:09 [main] INFO  Test.TC04_Register - Validating Register page password rules
+2026-03-01 21:50:09 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='Null value in  username for register', submissionMethod='submits the register form', message='Please fill out this field.'
+2026-03-01 21:50:09 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: Null value in  username for register
+2026-03-01 21:50:09 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 21:50:09 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 21:50:10 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 21:50:10 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 21:50:10 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: Null value in  username for register
+2026-03-01 21:50:10 [main] INFO  pages.RegisterPage - Validation tooltip found: Please fill out this field.
+2026-03-01 21:50:10 [main] INFO  Test.TC04_Register - Validating error message for scenario 'Null value in  username for register'. Expected: 'Please fill out this field.', Actual: 'Please fill out this field.'
+2026-03-01 21:50:10 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='Null value in password for register', submissionMethod='submits the register form', message='Please fill out this field.'
+2026-03-01 21:50:10 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: Null value in password for register
+2026-03-01 21:50:10 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 21:50:10 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 21:50:10 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 21:50:10 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 21:50:10 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: Null value in password for register
+2026-03-01 21:50:10 [main] INFO  pages.RegisterPage - Validation tooltip found: Please fill out this field.
+2026-03-01 21:50:10 [main] INFO  Test.TC04_Register - Validating error message for scenario 'Null value in password for register'. Expected: 'Please fill out this field.', Actual: 'Please fill out this field.'
+2026-03-01 21:50:10 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='Null value in  confirm password for register', submissionMethod='submits the register form', message='Please fill out this field.'
+2026-03-01 21:50:10 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: Null value in  confirm password for register
+2026-03-01 21:50:11 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 21:50:11 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 21:50:11 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 21:50:11 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 21:50:11 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: Null value in  confirm password for register
+2026-03-01 21:50:11 [main] INFO  pages.RegisterPage - Validation tooltip found: Please fill out this field.
+2026-03-01 21:50:11 [main] INFO  Test.TC04_Register - Validating error message for scenario 'Null value in  confirm password for register'. Expected: 'Please fill out this field.', Actual: 'Please fill out this field.'
+2026-03-01 21:50:11 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='with specialcharacter password for register', submissionMethod='submits the register form', message='Password does not match requirement'
+2026-03-01 21:50:11 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: with specialcharacter password for register
+2026-03-01 21:50:11 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 21:50:11 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 21:50:11 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 21:50:11 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 21:50:12 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: with specialcharacter password for register
+2026-03-01 21:50:12 [main] INFO  pages.RegisterPage - Alert message found: password_mismatch:The two password fields didn’t match.
+2026-03-01 21:50:12 [main] INFO  Test.TC04_Register - Validating error message for scenario 'with specialcharacter password for register'. Expected: 'Password does not match requirement', Actual: 'password_mismatch:The two password fields didn’t match.'
+2026-03-01 21:50:12 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='with password less then eight characters for register', submissionMethod='submits the register form', message='Password does not match requirement'
+2026-03-01 21:50:12 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: with password less then eight characters for register
+2026-03-01 21:50:12 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 21:50:12 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 21:50:12 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 21:50:12 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 21:50:12 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: with password less then eight characters for register
+2026-03-01 21:50:12 [main] INFO  pages.RegisterPage - Alert message found: password_mismatch:The two password fields didn’t match.
+2026-03-01 21:50:12 [main] INFO  Test.TC04_Register - Validating error message for scenario 'with password less then eight characters for register'. Expected: 'Password does not match requirement', Actual: 'password_mismatch:The two password fields didn’t match.'
+2026-03-01 21:50:12 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='with mismatch password for register', submissionMethod='submits the register form', message='password_mismatch:The two password fields didn’t match.'
+2026-03-01 21:50:12 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: with mismatch password for register
+2026-03-01 21:50:12 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 21:50:13 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 21:50:13 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 21:50:13 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 21:50:13 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: with mismatch password for register
+2026-03-01 21:50:13 [main] INFO  pages.RegisterPage - Alert message found: password_mismatch:The two password fields didn’t match.
+2026-03-01 21:50:13 [main] INFO  Test.TC04_Register - Validating error message for scenario 'with mismatch password for register'. Expected: 'password_mismatch:The two password fields didn’t match.', Actual: 'password_mismatch:The two password fields didn’t match.'
+2026-03-01 21:50:13 [main] INFO  Test.TC04_Register - checking negative register data: scenarioType='with specialcharacter username for register', submissionMethod='submits the register form', message='Username must be alphanumeric'
+2026-03-01 21:50:13 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: with specialcharacter username for register
+2026-03-01 21:50:13 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 21:50:13 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 21:50:13 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 21:50:13 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 21:50:14 [main] INFO  pages.RegisterPage - Fetching register error message for scenario: with specialcharacter username for register
+2026-03-01 21:50:14 [main] INFO  pages.RegisterPage - Alert message found: password_mismatch:The two password fields didn’t match.
+2026-03-01 21:50:14 [main] INFO  Test.TC04_Register - Validating error message for scenario 'with specialcharacter username for register'. Expected: 'Username must be alphanumeric', Actual: 'password_mismatch:The two password fields didn’t match.'
+2026-03-01 21:50:14 [main] INFO  Test.TC04_Register - checking valid register data: scenarioType='valid_register', submissionMethod='submits the register form', message='New Account Created. You are logged in as'
+2026-03-01 21:50:14 [main] INFO  pages.RegisterPage - Executing register with method: submits the register form and scenario: valid_register
+2026-03-01 21:50:14 [main] INFO  pages.RegisterPage - Username entered.
+2026-03-01 21:50:14 [main] INFO  pages.RegisterPage - Password entered.
+2026-03-01 21:50:14 [main] INFO  pages.RegisterPage - Confirm password entered.
+2026-03-01 21:50:14 [main] INFO  pages.RegisterPage - Clicking Register button.
+2026-03-01 21:50:15 [main] INFO  Test.TC04_Register - Verifying redirect message. Expected: 'New Account Created. You are logged in as', Actual: 'New Account Created. You are logged in as Validruntest2'
+2026-03-01 21:50:15 [main] INFO  Test.TC04_Register - Tearing down WebDriver and closing browser
+2026-03-01 21:50:15 [main] INFO  Test.TC04_Register - Driver removed from ThreadLocal

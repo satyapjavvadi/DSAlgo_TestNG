@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="Test.TC03_Login">
         <methods>
           <include name="setBrowser"/>
@@ -12,6 +13,16 @@
           <include name="verifyValidLogin"/>
         </methods>
       </class> <!-- Test.TC03_Login -->
+=======
+      <class name="Test.TC04_Register">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="setUp"/>
+          <include name="verifyRegisterinvalid" invocation-numbers="3 4 6"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test.TC04_Register -->
+>>>>>>> 3402469 (Register TestNG)
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

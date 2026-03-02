@@ -6,12 +6,13 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 
 import DriverManager.DriverFactory;
 import utils.JSUtils;
@@ -20,7 +21,7 @@ import utils.WaitUtils;
 public class QueuePage {
 	private final WaitUtils wait;
 	private final WebDriver driver;
-	private static final Logger logger = LoggerFactory.getLogger(QueuePage.class);
+	private static final Logger logger = LogManager.getLogger(QueuePage.class);
 
 	@FindBy(xpath = "//*[@class='bg-secondary text-white']")
 	private List<WebElement> headings;
