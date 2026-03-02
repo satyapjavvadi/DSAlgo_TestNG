@@ -3,15 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test.TC03_Login">
+      <class name="Test.TC08_LinkedList">
         <methods>
-          <include name="setBrowser"/>
+          <include name="verifyPracticeQuestionsLink"/>
           <include name="setUp"/>
-          <include name="openLoginPage"/>
+          <include name="setBrowser"/>
+          <include name="openLinkedListPage"/>
+          <include name="verifyPracticeQuestionList"/>
+          <include name="verifyPracticeQuestionsPage"/>
           <include name="tearDown"/>
-          <include name="verifyValidLogin"/>
         </methods>
-      </class> <!-- Test.TC03_Login -->
+      </class> <!-- Test.TC08_LinkedList -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\saphi\AppData\Local\Temp\testng-eclipse-784163905\testng-customsuite.xml</span>
+                    <span>C:\Users\saphi\AppData\Local\Temp\testng-eclipse-1246852921\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Default_suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods,   15 passed</span>
+                    <span class="method-stats">15 methods, 3 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyPracticeQuestionList">verifyPracticeQuestionList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyPracticeQuestionsLink">verifyPracticeQuestionsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyPracticeQuestionsPage">verifyPracticeQuestionsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,77 +127,62 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC03_Login" class="method navigator-link" hash-for-method="verifyButtonCount">verifyButtonCount</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyStaticContent(Topics Covered)">verifyStaticContent(Topics Covered)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC03_Login" class="method navigator-link" hash-for-method="verifyInputFieldCount">verifyInputFieldCount</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyStaticContent(Linked List)">verifyStaticContent(Linked List)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC03_Login" class="method navigator-link" hash-for-method="verifyInvalidLogin(Invalid user, initiates login, alert)">verifyInvalidLogin(Invalid user, initiates login, alert)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyTopicLinks">verifyTopicLinks</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC03_Login" class="method navigator-link" hash-for-method="verifyInvalidLogin(Null value in cred, presses Enter, username field)">verifyInvalidLogin(Null value in cred, presses Enter, username field)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyTopicNavigation(Traversal)">verifyTopicNavigation(Traversal)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC03_Login" class="method navigator-link" hash-for-method="verifyInvalidLogin(Null value in password, presses Enter, password field)">verifyInvalidLogin(Null value in password, presses Enter, password field)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyTopicNavigation(Types of Linked List)">verifyTopicNavigation(Types of Linked List)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC03_Login" class="method navigator-link" hash-for-method="verifyInvalidLogin(Null value in password, submits the login form, password field)">verifyInvalidLogin(Null value in password, submits the login form, password field)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyTopicNavigation(Creating Linked LIst)">verifyTopicNavigation(Creating Linked LIst)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC03_Login" class="method navigator-link" hash-for-method="verifyInvalidLogin(Invalid password, initiates login, alert)">verifyInvalidLogin(Invalid password, initiates login, alert)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyTopicNavigation(Deletion)">verifyTopicNavigation(Deletion)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC03_Login" class="method navigator-link" hash-for-method="verifyInvalidLogin(Null value in username, submits the login form, username field)">verifyInvalidLogin(Null value in username, submits the login form, username field)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyTopicNavigation(Implement Linked List in Python)">verifyTopicNavigation(Implement Linked List in Python)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC03_Login" class="method navigator-link" hash-for-method="verifyInvalidLogin(Null value in username, presses Enter, username field)">verifyInvalidLogin(Null value in username, presses Enter, username field)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyTopicNavigation(Insertion)">verifyTopicNavigation(Insertion)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC03_Login" class="method navigator-link" hash-for-method="verifyInvalidLogin(Null value in cred, submits the login form, username field)">verifyInvalidLogin(Null value in cred, submits the login form, username field)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyTopicNavigation(Introduction)">verifyTopicNavigation(Introduction)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC03_Login" class="method navigator-link" hash-for-method="verifyLoginButtonText">verifyLoginButtonText</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyTryHereButton">verifyTryHereButton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC03_Login" class="method navigator-link" hash-for-method="verifyLoginLabels(Username:)">verifyLoginLabels(Username:)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC03_Login" class="method navigator-link" hash-for-method="verifyLoginLabels(Password:)">verifyLoginLabels(Password:)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC03_Login" class="method navigator-link" hash-for-method="verifyValidLogin(Submits the login form, valid_login)">verifyValidLogin(Submits the login form, valid_login)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC03_Login" class="method navigator-link" hash-for-method="verifyValidLogin(confirms login using Enter, valid_login)">verifyValidLogin(confirms login using Enter, valid_login)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyTryHereEditorOpens">verifyTryHereEditorOpens</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -188,127 +197,225 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Test.TC03_Login</span>
+              <img src="failed.png"/>
+              <span class="class-name">Test.TC08_LinkedList</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyButtonCount">
-                  </a> <!-- verifyButtonCount -->
-                  <span class="method-name">verifyButtonCount</span>
+                  <a name="verifyPracticeQuestionList">
+                  </a> <!-- verifyPracticeQuestionList -->
+                  <span class="method-name">verifyPracticeQuestionList</span>
+                  <div class="stack-trace">java.util.NoSuchElementException: Topic link not found: Introduction
+	at pages.LinkedListPage.clickTopicLink(LinkedListPage.java:91)
+	at Test.TC08_LinkedList.verifyPracticeQuestionList(TC08_LinkedList.java:93)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyInputFieldCount">
-                  </a> <!-- verifyInputFieldCount -->
-                  <span class="method-name">verifyInputFieldCount</span>
+                  <a name="verifyPracticeQuestionsLink">
+                  </a> <!-- verifyPracticeQuestionsLink -->
+                  <span class="method-name">verifyPracticeQuestionsLink</span>
+                  <div class="stack-trace">java.util.NoSuchElementException: Topic link not found: Introduction
+	at pages.LinkedListPage.clickTopicLink(LinkedListPage.java:91)
+	at Test.TC08_LinkedList.verifyPracticeQuestionsLink(TC08_LinkedList.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyInvalidLogin(Invalid user, initiates login, alert)">
-                  </a> <!-- verifyInvalidLogin(Invalid user, initiates login, alert) -->
-                  <span class="method-name">verifyInvalidLogin</span>
-                  <span class="parameters">(Invalid user,initiates login,alert)</span>
+                  <a name="verifyPracticeQuestionsPage">
+                  </a> <!-- verifyPracticeQuestionsPage -->
+                  <span class="method-name">verifyPracticeQuestionsPage</span>
+                  <div class="stack-trace">java.util.NoSuchElementException: Topic link not found: Introduction
+	at pages.LinkedListPage.clickTopicLink(LinkedListPage.java:91)
+	at Test.TC08_LinkedList.verifyPracticeQuestionsPage(TC08_LinkedList.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.TC08_LinkedList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStaticContent(Topics Covered)">
+                  </a> <!-- verifyStaticContent(Topics Covered) -->
+                  <span class="method-name">verifyStaticContent</span>
+                  <span class="parameters">(Topics Covered)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyInvalidLogin(Null value in cred, presses Enter, username field)">
-                  </a> <!-- verifyInvalidLogin(Null value in cred, presses Enter, username field) -->
-                  <span class="method-name">verifyInvalidLogin</span>
-                  <span class="parameters">(Null value in cred,presses Enter,username field)</span>
+                  <a name="verifyStaticContent(Linked List)">
+                  </a> <!-- verifyStaticContent(Linked List) -->
+                  <span class="method-name">verifyStaticContent</span>
+                  <span class="parameters">(Linked List)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyInvalidLogin(Null value in password, presses Enter, password field)">
-                  </a> <!-- verifyInvalidLogin(Null value in password, presses Enter, password field) -->
-                  <span class="method-name">verifyInvalidLogin</span>
-                  <span class="parameters">(Null value in password,presses Enter,password field)</span>
+                  <a name="verifyTopicLinks">
+                  </a> <!-- verifyTopicLinks -->
+                  <span class="method-name">verifyTopicLinks</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyInvalidLogin(Null value in password, submits the login form, password field)">
-                  </a> <!-- verifyInvalidLogin(Null value in password, submits the login form, password field) -->
-                  <span class="method-name">verifyInvalidLogin</span>
-                  <span class="parameters">(Null value in password,submits the login form,password field)</span>
+                  <a name="verifyTopicNavigation(Traversal)">
+                  </a> <!-- verifyTopicNavigation(Traversal) -->
+                  <span class="method-name">verifyTopicNavigation</span>
+                  <span class="parameters">(Traversal)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyInvalidLogin(Invalid password, initiates login, alert)">
-                  </a> <!-- verifyInvalidLogin(Invalid password, initiates login, alert) -->
-                  <span class="method-name">verifyInvalidLogin</span>
-                  <span class="parameters">(Invalid password,initiates login,alert)</span>
+                  <a name="verifyTopicNavigation(Types of Linked List)">
+                  </a> <!-- verifyTopicNavigation(Types of Linked List) -->
+                  <span class="method-name">verifyTopicNavigation</span>
+                  <span class="parameters">(Types of Linked List)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyInvalidLogin(Null value in username, submits the login form, username field)">
-                  </a> <!-- verifyInvalidLogin(Null value in username, submits the login form, username field) -->
-                  <span class="method-name">verifyInvalidLogin</span>
-                  <span class="parameters">(Null value in username,submits the login form,username field)</span>
+                  <a name="verifyTopicNavigation(Creating Linked LIst)">
+                  </a> <!-- verifyTopicNavigation(Creating Linked LIst) -->
+                  <span class="method-name">verifyTopicNavigation</span>
+                  <span class="parameters">(Creating Linked LIst)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyInvalidLogin(Null value in username, presses Enter, username field)">
-                  </a> <!-- verifyInvalidLogin(Null value in username, presses Enter, username field) -->
-                  <span class="method-name">verifyInvalidLogin</span>
-                  <span class="parameters">(Null value in username,presses Enter,username field)</span>
+                  <a name="verifyTopicNavigation(Deletion)">
+                  </a> <!-- verifyTopicNavigation(Deletion) -->
+                  <span class="method-name">verifyTopicNavigation</span>
+                  <span class="parameters">(Deletion)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyInvalidLogin(Null value in cred, submits the login form, username field)">
-                  </a> <!-- verifyInvalidLogin(Null value in cred, submits the login form, username field) -->
-                  <span class="method-name">verifyInvalidLogin</span>
-                  <span class="parameters">(Null value in cred,submits the login form,username field)</span>
+                  <a name="verifyTopicNavigation(Implement Linked List in Python)">
+                  </a> <!-- verifyTopicNavigation(Implement Linked List in Python) -->
+                  <span class="method-name">verifyTopicNavigation</span>
+                  <span class="parameters">(Implement Linked List in Python)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginButtonText">
-                  </a> <!-- verifyLoginButtonText -->
-                  <span class="method-name">verifyLoginButtonText</span>
+                  <a name="verifyTopicNavigation(Insertion)">
+                  </a> <!-- verifyTopicNavigation(Insertion) -->
+                  <span class="method-name">verifyTopicNavigation</span>
+                  <span class="parameters">(Insertion)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginLabels(Username:)">
-                  </a> <!-- verifyLoginLabels(Username:) -->
-                  <span class="method-name">verifyLoginLabels</span>
-                  <span class="parameters">(Username:)</span>
+                  <a name="verifyTopicNavigation(Introduction)">
+                  </a> <!-- verifyTopicNavigation(Introduction) -->
+                  <span class="method-name">verifyTopicNavigation</span>
+                  <span class="parameters">(Introduction)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginLabels(Password:)">
-                  </a> <!-- verifyLoginLabels(Password:) -->
-                  <span class="method-name">verifyLoginLabels</span>
-                  <span class="parameters">(Password:)</span>
+                  <a name="verifyTryHereButton">
+                  </a> <!-- verifyTryHereButton -->
+                  <span class="method-name">verifyTryHereButton</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyValidLogin(Submits the login form, valid_login)">
-                  </a> <!-- verifyValidLogin(Submits the login form, valid_login) -->
-                  <span class="method-name">verifyValidLogin</span>
-                  <span class="parameters">(Submits the login form,valid_login)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyValidLogin(confirms login using Enter, valid_login)">
-                  </a> <!-- verifyValidLogin(confirms login using Enter, valid_login) -->
-                  <span class="method-name">verifyValidLogin</span>
-                  <span class="parameters">(confirms login using Enter,valid_login)</span>
+                  <a name="verifyTryHereEditorOpens">
+                  </a> <!-- verifyTryHereEditorOpens -->
+                  <span class="method-name">verifyTryHereEditorOpens</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -316,7 +423,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\saphi\AppData\Local\Temp\testng-eclipse-784163905\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\saphi\AppData\Local\Temp\testng-eclipse-1246852921\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -325,7 +432,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Test.TC03_Login&quot;/&gt;
+      &lt;class name=&quot;Test.TC08_LinkedList&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -349,6 +456,114 @@
             <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Get Started</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPracticeQuestionList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPracticeQuestionsLink</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPracticeQuestionsPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyStaticContent</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTopicLinks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTopicNavigation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTryHereButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTryHereEditorOpens</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">LinkedList</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPracticeQuestionList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPracticeQuestionsLink</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPracticeQuestionsPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyStaticContent</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTopicLinks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTopicNavigation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTryHereButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTryHereEditorOpens</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sign in</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPracticeQuestionList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPracticeQuestionsLink</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPracticeQuestionsPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyStaticContent</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTopicLinks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTopicNavigation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTryHereButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTryHereEditorOpens</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Default_suite" class="panel">
@@ -367,70 +582,70 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(15);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyValidLogin')
-data.setCell(0, 2, 'Test.TC03_Login')
-data.setCell(0, 3, 1138);
+data.setCell(0, 1, 'verifyPracticeQuestionsLink')
+data.setCell(0, 2, 'Test.TC08_LinkedList')
+data.setCell(0, 3, 50154);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyValidLogin')
-data.setCell(1, 2, 'Test.TC03_Login')
-data.setCell(1, 3, 996);
+data.setCell(1, 1, 'verifyPracticeQuestionList')
+data.setCell(1, 2, 'Test.TC08_LinkedList')
+data.setCell(1, 3, 40216);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyInvalidLogin')
-data.setCell(2, 2, 'Test.TC03_Login')
-data.setCell(2, 3, 433);
+data.setCell(2, 1, 'verifyPracticeQuestionsPage')
+data.setCell(2, 2, 'Test.TC08_LinkedList')
+data.setCell(2, 3, 40149);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyInvalidLogin')
-data.setCell(3, 2, 'Test.TC03_Login')
-data.setCell(3, 3, 427);
+data.setCell(3, 1, 'verifyTryHereEditorOpens')
+data.setCell(3, 2, 'Test.TC08_LinkedList')
+data.setCell(3, 3, 1195);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyInvalidLogin')
-data.setCell(4, 2, 'Test.TC03_Login')
-data.setCell(4, 3, 306);
+data.setCell(4, 1, 'verifyTopicNavigation')
+data.setCell(4, 2, 'Test.TC08_LinkedList')
+data.setCell(4, 3, 1124);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyInvalidLogin')
-data.setCell(5, 2, 'Test.TC03_Login')
-data.setCell(5, 3, 193);
+data.setCell(5, 1, 'verifyTopicNavigation')
+data.setCell(5, 2, 'Test.TC08_LinkedList')
+data.setCell(5, 3, 1096);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyInvalidLogin')
-data.setCell(6, 2, 'Test.TC03_Login')
-data.setCell(6, 3, 184);
+data.setCell(6, 1, 'verifyTopicNavigation')
+data.setCell(6, 2, 'Test.TC08_LinkedList')
+data.setCell(6, 3, 1036);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyInvalidLogin')
-data.setCell(7, 2, 'Test.TC03_Login')
-data.setCell(7, 3, 181);
+data.setCell(7, 1, 'verifyTopicNavigation')
+data.setCell(7, 2, 'Test.TC08_LinkedList')
+data.setCell(7, 3, 1002);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyInvalidLogin')
-data.setCell(8, 2, 'Test.TC03_Login')
-data.setCell(8, 3, 154);
+data.setCell(8, 1, 'verifyTopicNavigation')
+data.setCell(8, 2, 'Test.TC08_LinkedList')
+data.setCell(8, 3, 858);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyInvalidLogin')
-data.setCell(9, 2, 'Test.TC03_Login')
-data.setCell(9, 3, 140);
+data.setCell(9, 1, 'verifyTopicNavigation')
+data.setCell(9, 2, 'Test.TC08_LinkedList')
+data.setCell(9, 3, 790);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyLoginButtonText')
-data.setCell(10, 2, 'Test.TC03_Login')
-data.setCell(10, 3, 68);
+data.setCell(10, 1, 'verifyTopicNavigation')
+data.setCell(10, 2, 'Test.TC08_LinkedList')
+data.setCell(10, 3, 784);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyButtonCount')
-data.setCell(11, 2, 'Test.TC03_Login')
-data.setCell(11, 3, 34);
+data.setCell(11, 1, 'verifyTopicLinks')
+data.setCell(11, 2, 'Test.TC08_LinkedList')
+data.setCell(11, 3, 504);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'verifyLoginLabels')
-data.setCell(12, 2, 'Test.TC03_Login')
-data.setCell(12, 3, 33);
+data.setCell(12, 1, 'verifyTryHereButton')
+data.setCell(12, 2, 'Test.TC08_LinkedList')
+data.setCell(12, 3, 497);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'verifyLoginLabels')
-data.setCell(13, 2, 'Test.TC03_Login')
-data.setCell(13, 3, 29);
+data.setCell(13, 1, 'verifyStaticContent')
+data.setCell(13, 2, 'Test.TC08_LinkedList')
+data.setCell(13, 3, 260);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verifyInputFieldCount')
-data.setCell(14, 2, 'Test.TC03_Login')
-data.setCell(14, 3, 27);
+data.setCell(14, 1, 'verifyStaticContent')
+data.setCell(14, 2, 'Test.TC08_LinkedList')
+data.setCell(14, 3, 176);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -456,138 +671,88 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Test.TC03_Login</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Test.TC08_LinkedList</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setBrowser(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">577 ms</span>
+                <span class="method-start">554 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">3473 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">openLinkedListPage</span>
+                <span class="method-start">7186 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">verifyButtonCount</span>
-                <span class="method-start">15166 ms</span>
+                <span class="method-name">verifyStaticContent(Linked List)</span>
+                <span class="method-start">8036 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">15203 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyInputFieldCount</span>
-                <span class="method-start">25618 ms</span>
+                <span class="method-name">verifyStaticContent(Topics Covered)</span>
+                <span class="method-start">8304 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">25653 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyInvalidLogin(Null value in cred, submits the login form, username field)</span>
-                <span class="method-start">36231 ms</span>
+                <span class="method-name">verifyTopicLinks</span>
+                <span class="method-start">8489 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">36387 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyInvalidLogin(Null value in cred, presses Enter, username field)</span>
-                <span class="method-start">46894 ms</span>
+                <span class="method-name">verifyTopicNavigation(Introduction)</span>
+                <span class="method-start">9000 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">47036 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyInvalidLogin(Null value in password, submits the login form, password field)</span>
-                <span class="method-start">57458 ms</span>
+                <span class="method-name">verifyTopicNavigation(Creating Linked LIst)</span>
+                <span class="method-start">10039 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">57643 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyInvalidLogin(Null value in password, presses Enter, password field)</span>
-                <span class="method-start">68166 ms</span>
+                <span class="method-name">verifyTopicNavigation(Types of Linked List)</span>
+                <span class="method-start">10829 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">68473 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyInvalidLogin(Null value in username, submits the login form, username field)</span>
-                <span class="method-start">78870 ms</span>
+                <span class="method-name">verifyTopicNavigation(Implement Linked List in Python)</span>
+                <span class="method-start">11955 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">79053 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyInvalidLogin(Null value in username, presses Enter, username field)</span>
-                <span class="method-start">89526 ms</span>
+                <span class="method-name">verifyTopicNavigation(Traversal)</span>
+                <span class="method-start">12814 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">89720 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyInvalidLogin(Invalid user, initiates login, alert)</span>
-                <span class="method-start">100229 ms</span>
+                <span class="method-name">verifyTopicNavigation(Insertion)</span>
+                <span class="method-start">13817 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">100664 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyInvalidLogin(Invalid password, initiates login, alert)</span>
-                <span class="method-start">111163 ms</span>
+                <span class="method-name">verifyTopicNavigation(Deletion)</span>
+                <span class="method-start">14607 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">111592 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyLoginButtonText</span>
-                <span class="method-start">122143 ms</span>
+                <span class="method-name">verifyTryHereButton</span>
+                <span class="method-start">15706 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">122213 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyLoginLabels(Username:)</span>
-                <span class="method-start">132754 ms</span>
+                <span class="method-name">verifyTryHereEditorOpens</span>
+                <span class="method-start">16205 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">132788 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyLoginLabels(Password:)</span>
-                <span class="method-start">143277 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyPracticeQuestionsLink</span>
+                <span class="method-start">17403 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">143308 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyValidLogin(Submits the login form, valid_login)</span>
-                <span class="method-start">153744 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyPracticeQuestionsPage</span>
+                <span class="method-start">67565 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openLoginPage</span>
-                <span class="method-start">154883 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyValidLogin(confirms login using Enter, valid_login)</span>
-                <span class="method-start">155947 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyPracticeQuestionList</span>
+                <span class="method-start">107718 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">156945 ms</span>
+                <span class="method-start">147934 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
