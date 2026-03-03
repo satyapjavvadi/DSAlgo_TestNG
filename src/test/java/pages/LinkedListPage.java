@@ -90,8 +90,6 @@ public class LinkedListPage {
 		logger.error("Topic link not found: {}", topicName);
 		throw new NoSuchElementException("Topic link not found: " + topicName);
 	}
-	
-
 
 	public boolean checktryherebutton_displayed() {
 		boolean visible = WaitUtils.isVisible(driver, tryhere_button, 10);
@@ -121,13 +119,9 @@ public class LinkedListPage {
 
 	public void clickPracticeQuestionsLink() {
 		logger.info("Clicking Practice Questions link.");
-		//JSUtils.scrollIntoView(Practicequestionslink);
-		//wait.waitForClickable(Practicequestionslink).click();
-		if (!driver.getCurrentUrl().contains("introduction")) { 
-			clickTopicLink("Introduction");
-			} 
-		JSUtils.scrollIntoView(Practicequestionslink); 
-		Practicequestionslink.click();
+		JSUtils.scrollIntoView(Practicequestionslink);
+		wait.waitForClickable(Practicequestionslink).click();
+
 	}
 
 	public List<String> getQuestionsList() {
@@ -135,9 +129,7 @@ public class LinkedListPage {
 			logger.info("Fetching LinkedList practice questions.");
 			wait.waitForVisibilityOfAll(questionslist);
 
-			List<String> questions = questionslist.stream()
-					.map(WebElement::getText)
-					.collect(Collectors.toList());
+			List<String> questions = questionslist.stream().map(WebElement::getText).collect(Collectors.toList());
 
 			logger.debug("Questions found: {}", questions);
 			return questions;
@@ -162,11 +154,5 @@ public class LinkedListPage {
 
 		logger.warn("Problem link not found: {}", problemName);
 	}
-	
-	public void waitUntilOnLinkedListPage() {
-	    wait.waitForVisibilityOfAll(LinkedList_subtopicslinks);
-	}
-
-
 
 }

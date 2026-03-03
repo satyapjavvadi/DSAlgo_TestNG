@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="12" failed="3" skipped="0">
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-02T00:10:30 PST" name="Default suite" finished-at="2026-03-02T00:12:58 PST" duration-ms="147631">
+  <suite started-at="2026-03-02T17:54:33 PST" name="Default suite" finished-at="2026-03-02T17:55:00 PST" duration-ms="27426">
     <groups>
       <group name="Get Started">
         <method signature="TC08_LinkedList.verifyStaticContent(java.lang.String)[pri:0, instance:Test.TC08_LinkedList@6b85300e]" name="verifyStaticContent" class="Test.TC08_LinkedList"/>
@@ -35,9 +35,9 @@
         <method signature="TC08_LinkedList.verifyPracticeQuestionList()[pri:7, instance:Test.TC08_LinkedList@6b85300e]" name="verifyPracticeQuestionList" class="Test.TC08_LinkedList"/>
       </group> <!-- LinkedList -->
     </groups>
-    <test started-at="2026-03-02T00:10:30 PST" name="Default test" finished-at="2026-03-02T00:12:58 PST" duration-ms="147631">
+    <test started-at="2026-03-02T17:54:33 PST" name="Default test" finished-at="2026-03-02T17:55:00 PST" duration-ms="27426">
       <class name="Test.TC08_LinkedList">
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:30 PST" name="setBrowser" finished-at="2026-03-02T00:10:30 PST" duration-ms="537" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:32 PST" name="setBrowser" finished-at="2026-03-02T17:54:33 PST" duration-ms="518" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,15 +48,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:30 PST" name="setUp" finished-at="2026-03-02T00:10:37 PST" duration-ms="6632" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:33 PST" name="setUp" finished-at="2026-03-02T17:54:38 PST" duration-ms="5548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="openLinkedListPage()[pri:0, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:37 PST" name="openLinkedListPage" finished-at="2026-03-02T00:10:38 PST" duration-ms="822" status="PASS">
+        <test-method is-config="true" signature="openLinkedListPage()[pri:0, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:38 PST" name="openLinkedListPage" finished-at="2026-03-02T17:54:39 PST" duration-ms="931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyStaticContent(java.lang.String)[pri:0, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:38 PST" name="verifyStaticContent" data-provider="staticContent" finished-at="2026-03-02T00:10:38 PST" duration-ms="260" status="PASS">
+        <test-method signature="verifyStaticContent(java.lang.String)[pri:0, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:39 PST" name="verifyStaticContent" data-provider="staticContent" finished-at="2026-03-02T17:54:40 PST" duration-ms="215" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStaticContent -->
-        <test-method signature="verifyStaticContent(java.lang.String)[pri:0, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:38 PST" name="verifyStaticContent" data-provider="staticContent" finished-at="2026-03-02T00:10:38 PST" duration-ms="176" status="PASS">
+        <test-method signature="verifyStaticContent(java.lang.String)[pri:0, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:40 PST" name="verifyStaticContent" data-provider="staticContent" finished-at="2026-03-02T17:54:40 PST" duration-ms="163" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,11 +78,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStaticContent -->
-        <test-method signature="verifyTopicLinks()[pri:1, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:38 PST" name="verifyTopicLinks" finished-at="2026-03-02T00:10:39 PST" duration-ms="504" status="PASS">
+        <test-method signature="verifyTopicLinks()[pri:1, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:40 PST" name="verifyTopicLinks" finished-at="2026-03-02T17:54:40 PST" duration-ms="632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTopicLinks -->
-        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:39 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-02T00:10:40 PST" duration-ms="1036" status="PASS">
+        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:40 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-02T17:54:41 PST" duration-ms="1040" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTopicNavigation -->
-        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:40 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-02T00:10:41 PST" duration-ms="784" status="PASS">
+        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:41 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-02T17:54:42 PST" duration-ms="806" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -104,7 +104,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTopicNavigation -->
-        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:41 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-02T00:10:42 PST" duration-ms="1124" status="PASS">
+        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:42 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-02T17:54:43 PST" duration-ms="880" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTopicNavigation -->
-        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:42 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-02T00:10:43 PST" duration-ms="858" status="PASS">
+        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:43 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-02T17:54:44 PST" duration-ms="1198" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,7 +126,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTopicNavigation -->
-        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:43 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-02T00:10:44 PST" duration-ms="1002" status="PASS">
+        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:44 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-02T17:54:46 PST" duration-ms="1229" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTopicNavigation -->
-        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:44 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-02T00:10:44 PST" duration-ms="790" status="PASS">
+        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:46 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-02T17:54:47 PST" duration-ms="1236" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -148,7 +148,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTopicNavigation -->
-        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:44 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-02T00:10:46 PST" duration-ms="1096" status="PASS">
+        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:47 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-02T17:54:48 PST" duration-ms="1101" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -159,105 +159,74 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTopicNavigation -->
-        <test-method signature="verifyTryHereButton()[pri:3, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:46 PST" name="verifyTryHereButton" finished-at="2026-03-02T00:10:46 PST" duration-ms="497" status="PASS">
+        <test-method signature="verifyTryHereButton()[pri:3, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:48 PST" name="verifyTryHereButton" finished-at="2026-03-02T17:54:49 PST" duration-ms="641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTryHereButton -->
-        <test-method signature="verifyTryHereEditorOpens()[pri:4, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:46 PST" name="verifyTryHereEditorOpens" finished-at="2026-03-02T00:10:47 PST" duration-ms="1195" status="PASS">
+        <test-method signature="verifyTryHereEditorOpens()[pri:4, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:49 PST" name="verifyTryHereEditorOpens" finished-at="2026-03-02T17:54:50 PST" duration-ms="1094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTryHereEditorOpens -->
-        <test-method signature="verifyPracticeQuestionsLink()[pri:5, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:10:47 PST" name="verifyPracticeQuestionsLink" finished-at="2026-03-02T00:11:37 PST" duration-ms="50154" status="FAIL">
-          <exception class="java.util.NoSuchElementException">
-            <message>
-              <![CDATA[Topic link not found: Introduction]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.util.NoSuchElementException: Topic link not found: Introduction
-at pages.LinkedListPage.clickTopicLink(LinkedListPage.java:91)
-at Test.TC08_LinkedList.verifyPracticeQuestionsLink(TC08_LinkedList.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.util.NoSuchElementException -->
+        <test-method signature="verifyPracticeQuestionsLink()[pri:5, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:50 PST" name="verifyPracticeQuestionsLink" finished-at="2026-03-02T17:54:50 PST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPracticeQuestionsLink -->
-        <test-method signature="verifyPracticeQuestionsPage()[pri:6, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:11:37 PST" name="verifyPracticeQuestionsPage" finished-at="2026-03-02T00:12:18 PST" duration-ms="40149" status="FAIL">
-          <exception class="java.util.NoSuchElementException">
-            <message>
-              <![CDATA[Topic link not found: Introduction]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.util.NoSuchElementException: Topic link not found: Introduction
-at pages.LinkedListPage.clickTopicLink(LinkedListPage.java:91)
-at Test.TC08_LinkedList.verifyPracticeQuestionsPage(TC08_LinkedList.java:84)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.util.NoSuchElementException -->
+        <test-method signature="verifyPracticeQuestionsPage()[pri:6, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:50 PST" name="verifyPracticeQuestionsPage" finished-at="2026-03-02T17:54:50 PST" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPracticeQuestionsPage -->
-        <test-method signature="verifyPracticeQuestionList()[pri:7, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:12:18 PST" name="verifyPracticeQuestionList" finished-at="2026-03-02T00:12:58 PST" duration-ms="40216" status="FAIL">
-          <exception class="java.util.NoSuchElementException">
+        <test-method signature="verifyPracticeQuestionList()[pri:7, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:54:50 PST" name="verifyPracticeQuestionList" finished-at="2026-03-02T17:55:00 PST" duration-ms="10039" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Topic link not found: Introduction]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Practice Questions')]"}
+  (Session info: chrome=145.0.7632.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22957fd941333bae37af3cdb2a269d74, findElement {value=//a[contains(text(),'Practice Questions')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\saphi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54886}, goog:processID: 24012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54886/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22957fd941333bae37af3cdb2a269d74]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.util.NoSuchElementException: Topic link not found: Introduction
-at pages.LinkedListPage.clickTopicLink(LinkedListPage.java:91)
-at Test.TC08_LinkedList.verifyPracticeQuestionList(TC08_LinkedList.java:93)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Practice Questions')]"}
+  (Session info: chrome=145.0.7632.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22957fd941333bae37af3cdb2a269d74, findElement {value=//a[contains(text(),'Practice Questions')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\saphi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54886}, goog:processID: 24012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54886/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22957fd941333bae37af3cdb2a269d74
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy49.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:473)
+at utils.JSUtils.scrollIntoView(JSUtils.java:11)
+at pages.LinkedListPage.clickPracticeQuestionsLink(LinkedListPage.java:124)
+at Test.TC08_LinkedList.verifyPracticeQuestionList(TC08_LinkedList.java:89)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -286,11 +255,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.util.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPracticeQuestionList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T00:12:58 PST" name="tearDown" finished-at="2026-03-02T00:12:58 PST" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.TC08_LinkedList@6b85300e]" started-at="2026-03-02T17:55:00 PST" name="tearDown" finished-at="2026-03-02T17:55:00 PST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

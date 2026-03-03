@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\saphi\AppData\Local\Temp\testng-eclipse-1246852921\testng-customsuite.xml</span>
+                    <span>C:\Users\saphi\AppData\Local\Temp\testng-eclipse-611368622\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods, 3 failed,   12 passed</span>
+                    <span class="method-stats">15 methods, 1 failed,   14 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -106,16 +106,6 @@
                         <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyPracticeQuestionList">verifyPracticeQuestionList</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyPracticeQuestionsLink">verifyPracticeQuestionsLink</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyPracticeQuestionsPage">verifyPracticeQuestionsPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
@@ -125,6 +115,16 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyPracticeQuestionsLink">verifyPracticeQuestionsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyPracticeQuestionsPage">verifyPracticeQuestionsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="Test.TC08_LinkedList" class="method navigator-link" hash-for-method="verifyStaticContent(Topics Covered)">verifyStaticContent(Topics Covered)</a> <!-- method navigator-link -->
@@ -208,85 +208,44 @@
                   <a name="verifyPracticeQuestionList">
                   </a> <!-- verifyPracticeQuestionList -->
                   <span class="method-name">verifyPracticeQuestionList</span>
-                  <div class="stack-trace">java.util.NoSuchElementException: Topic link not found: Introduction
-	at pages.LinkedListPage.clickTopicLink(LinkedListPage.java:91)
-	at Test.TC08_LinkedList.verifyPracticeQuestionList(TC08_LinkedList.java:93)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyPracticeQuestionsLink">
-                  </a> <!-- verifyPracticeQuestionsLink -->
-                  <span class="method-name">verifyPracticeQuestionsLink</span>
-                  <div class="stack-trace">java.util.NoSuchElementException: Topic link not found: Introduction
-	at pages.LinkedListPage.clickTopicLink(LinkedListPage.java:91)
-	at Test.TC08_LinkedList.verifyPracticeQuestionsLink(TC08_LinkedList.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyPracticeQuestionsPage">
-                  </a> <!-- verifyPracticeQuestionsPage -->
-                  <span class="method-name">verifyPracticeQuestionsPage</span>
-                  <div class="stack-trace">java.util.NoSuchElementException: Topic link not found: Introduction
-	at pages.LinkedListPage.clickTopicLink(LinkedListPage.java:91)
-	at Test.TC08_LinkedList.verifyPracticeQuestionsPage(TC08_LinkedList.java:84)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Practice Questions&apos;)]&quot;}
+  (Session info: chrome=145.0.7632.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22957fd941333bae37af3cdb2a269d74, findElement {value=//a[contains(text(),&apos;Practice Questions&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\saphi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54886}, goog:processID: 24012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54886/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22957fd941333bae37af3cdb2a269d74
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:473)
+	at utils.JSUtils.scrollIntoView(JSUtils.java:11)
+	at pages.LinkedListPage.clickPracticeQuestionsLink(LinkedListPage.java:124)
+	at Test.TC08_LinkedList.verifyPracticeQuestionList(TC08_LinkedList.java:89)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -325,6 +284,20 @@
               <span class="class-name">Test.TC08_LinkedList</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPracticeQuestionsLink">
+                  </a> <!-- verifyPracticeQuestionsLink -->
+                  <span class="method-name">verifyPracticeQuestionsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPracticeQuestionsPage">
+                  </a> <!-- verifyPracticeQuestionsPage -->
+                  <span class="method-name">verifyPracticeQuestionsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="verifyStaticContent(Topics Covered)">
@@ -423,7 +396,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\saphi\AppData\Local\Temp\testng-eclipse-1246852921\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\saphi\AppData\Local\Temp\testng-eclipse-611368622\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -582,70 +555,70 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(15);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyPracticeQuestionsLink')
+data.setCell(0, 1, 'verifyPracticeQuestionList')
 data.setCell(0, 2, 'Test.TC08_LinkedList')
-data.setCell(0, 3, 50154);
+data.setCell(0, 3, 10039);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyPracticeQuestionList')
+data.setCell(1, 1, 'verifyTopicNavigation')
 data.setCell(1, 2, 'Test.TC08_LinkedList')
-data.setCell(1, 3, 40216);
+data.setCell(1, 3, 1236);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyPracticeQuestionsPage')
+data.setCell(2, 1, 'verifyTopicNavigation')
 data.setCell(2, 2, 'Test.TC08_LinkedList')
-data.setCell(2, 3, 40149);
+data.setCell(2, 3, 1229);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyTryHereEditorOpens')
+data.setCell(3, 1, 'verifyTopicNavigation')
 data.setCell(3, 2, 'Test.TC08_LinkedList')
-data.setCell(3, 3, 1195);
+data.setCell(3, 3, 1198);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyTopicNavigation')
 data.setCell(4, 2, 'Test.TC08_LinkedList')
-data.setCell(4, 3, 1124);
+data.setCell(4, 3, 1101);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyTopicNavigation')
+data.setCell(5, 1, 'verifyTryHereEditorOpens')
 data.setCell(5, 2, 'Test.TC08_LinkedList')
-data.setCell(5, 3, 1096);
+data.setCell(5, 3, 1094);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'verifyTopicNavigation')
 data.setCell(6, 2, 'Test.TC08_LinkedList')
-data.setCell(6, 3, 1036);
+data.setCell(6, 3, 1040);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'verifyTopicNavigation')
 data.setCell(7, 2, 'Test.TC08_LinkedList')
-data.setCell(7, 3, 1002);
+data.setCell(7, 3, 880);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'verifyTopicNavigation')
 data.setCell(8, 2, 'Test.TC08_LinkedList')
-data.setCell(8, 3, 858);
+data.setCell(8, 3, 806);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyTopicNavigation')
+data.setCell(9, 1, 'verifyTryHereButton')
 data.setCell(9, 2, 'Test.TC08_LinkedList')
-data.setCell(9, 3, 790);
+data.setCell(9, 3, 641);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyTopicNavigation')
+data.setCell(10, 1, 'verifyTopicLinks')
 data.setCell(10, 2, 'Test.TC08_LinkedList')
-data.setCell(10, 3, 784);
+data.setCell(10, 3, 632);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyTopicLinks')
+data.setCell(11, 1, 'verifyPracticeQuestionsPage')
 data.setCell(11, 2, 'Test.TC08_LinkedList')
-data.setCell(11, 3, 504);
+data.setCell(11, 3, 328);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'verifyTryHereButton')
+data.setCell(12, 1, 'verifyStaticContent')
 data.setCell(12, 2, 'Test.TC08_LinkedList')
-data.setCell(12, 3, 497);
+data.setCell(12, 3, 215);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'verifyStaticContent')
 data.setCell(13, 2, 'Test.TC08_LinkedList')
-data.setCell(13, 3, 260);
+data.setCell(13, 3, 163);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verifyStaticContent')
+data.setCell(14, 1, 'verifyPracticeQuestionsLink')
 data.setCell(14, 2, 'Test.TC08_LinkedList')
-data.setCell(14, 3, 176);
+data.setCell(14, 3, 32);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -678,81 +651,77 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">554 ms</span>
+                <span class="method-start">536 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">openLinkedListPage</span>
-                <span class="method-start">7186 ms</span>
+                <span class="method-start">6085 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyStaticContent(Linked List)</span>
-                <span class="method-start">8036 ms</span>
+                <span class="method-start">7044 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyStaticContent(Topics Covered)</span>
-                <span class="method-start">8304 ms</span>
+                <span class="method-start">7266 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTopicLinks</span>
-                <span class="method-start">8489 ms</span>
+                <span class="method-start">7440 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTopicNavigation(Introduction)</span>
-                <span class="method-start">9000 ms</span>
+                <span class="method-start">8077 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTopicNavigation(Creating Linked LIst)</span>
-                <span class="method-start">10039 ms</span>
+                <span class="method-start">9118 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTopicNavigation(Types of Linked List)</span>
-                <span class="method-start">10829 ms</span>
+                <span class="method-start">9925 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTopicNavigation(Implement Linked List in Python)</span>
-                <span class="method-start">11955 ms</span>
+                <span class="method-start">10807 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTopicNavigation(Traversal)</span>
-                <span class="method-start">12814 ms</span>
+                <span class="method-start">12008 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTopicNavigation(Insertion)</span>
-                <span class="method-start">13817 ms</span>
+                <span class="method-start">13238 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTopicNavigation(Deletion)</span>
-                <span class="method-start">14607 ms</span>
+                <span class="method-start">14475 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTryHereButton</span>
-                <span class="method-start">15706 ms</span>
+                <span class="method-start">15583 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTryHereEditorOpens</span>
-                <span class="method-start">16205 ms</span>
+                <span class="method-start">16226 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifyPracticeQuestionsLink</span>
-                <span class="method-start">17403 ms</span>
+                <span class="method-start">17323 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifyPracticeQuestionsPage</span>
-                <span class="method-start">67565 ms</span>
+                <span class="method-start">17357 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyPracticeQuestionList</span>
-                <span class="method-start">107718 ms</span>
+                <span class="method-start">17688 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">147934 ms</span>
+                <span class="method-start">27744 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

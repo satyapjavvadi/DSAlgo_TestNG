@@ -17,14 +17,14 @@ public class TC08_LinkedList extends Hooks {
 	public void openLinkedListPage() {
 		pom.getHomePage().clickGetStarted("Linked List");
 		logger.info("User is in LinkedList page");
-		Assert.assertTrue(DriverFactory.getDriver().getCurrentUrl().contains("linked-list"),
-				"Navigation to Linked List page failed. Current URL: " + DriverFactory.getDriver().getCurrentUrl());
+
+		Assert.assertEquals(ElementUtil.getTitle(), "Linked List", "Navigation to Linked List failed");
 	}
 
 	@Test(priority = 0, dataProvider = "staticContent", dataProviderClass = LinkedListData.class)
 	public void verifyStaticContent(String expectedText) {
 		logger.info("Verifying static content: {}", expectedText);
-		Assert.assertTrue(DriverFactory.getDriver().getCurrentUrl().contains("linked-list"));
+		Assert.assertTrue(ElementUtil.getURL().contains("linked-list"));
 
 		List<String> headings = pom.getLinkedListPage().getheadingtext();
 		Assert.assertTrue(headings.contains(expectedText), "Static content missing:" + expectedText);
@@ -71,8 +71,6 @@ public class TC08_LinkedList extends Hooks {
 
 	@Test(priority = 5)
 	public void verifyPracticeQuestionsLink() {
-		pom.getHomePage().clickGetStarted("Linked List");
-		pom.getLinkedListPage().clickTopicLink("Introduction");
 		Assert.assertTrue(pom.getLinkedListPage().isPracticeQuestionLinkVisible(),
 				"Practice Questions Link not visible");
 		logger.info("Practice Questions link is visible");
@@ -80,7 +78,6 @@ public class TC08_LinkedList extends Hooks {
 
 	@Test(priority = 6)
 	public void verifyPracticeQuestionsPage() {
-		pom.getLinkedListPage().clickTopicLink("Introduction");
 		pom.getLinkedListPage().clickPracticeQuestionsLink();
 		Assert.assertTrue(DriverFactory.getDriver().getPageSource().contains("Practice Questions"),
 				"Practice Questions page title missing");
@@ -89,7 +86,6 @@ public class TC08_LinkedList extends Hooks {
 
 	@Test(priority = 7)
 	public void verifyPracticeQuestionList() {
-		pom.getLinkedListPage().clickTopicLink("Introduction");
 		pom.getLinkedListPage().clickPracticeQuestionsLink();
 		List<String> questions = pom.getLinkedListPage().getQuestionsList();
 		Assert.assertTrue(!questions.isEmpty(), "Practice question list is empty");
