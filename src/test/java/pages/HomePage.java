@@ -183,6 +183,22 @@ public class HomePage {
 		}
 
 	}
+	
+	public void navigatetoPages(String pageInfo) {
+		WaitUtils.waitForVisibility(driver, parent, 10);
+		List<WebElement> childLink = parent.findElements(By.xpath(".//a"));
+		for (WebElement eachLink : childLink) {
+			String linkText = eachLink.getText();
+			logger.info("Checking link: " + linkText);
+			if (linkText.toLowerCase().contains(pageInfo.toLowerCase())) {
+				logger.info("in line 57");
+				WaitUtils.waitForVisibility(driver, eachLink, 10);
+				eachLink.click();
+				break;
+			}
+		}
+	}
+
 
 	public String getAlertMessage() {
 		return alert.getText().trim();

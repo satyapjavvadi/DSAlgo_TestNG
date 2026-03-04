@@ -2,19 +2,26 @@ package Test;
 
 import java.util.List;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import TestPackage.RegisterData;
 
 @Test(groups = "Get Started")
-public class TC04_Register extends Hooks {
+public class TC03_Register extends Hooks {
+
+	@BeforeMethod
+	public void clickRegisterButton(){
+		logger.info("Clicking Register link in home page");
+	
+		pom.getHomePage().navigatetoPages("Register");
+	}
 
 	@Test(priority = 1, dataProvider = "Registertext", dataProviderClass = RegisterData.class)
-	public void clickRegisterinhome(String text) {
+	public void clickRegister_Home(String text) {
 
-		logger.info("Clicking Register link in home page");
+		logger.info("Check title for the page");
 		pom.getHomePage().navigatetoPages(text);
 		logger.info("Clicked link '{}' on Home Page", "Register");
 
@@ -22,22 +29,22 @@ public class TC04_Register extends Hooks {
 
 	@Test(priority = 2)
 	public void verifyNumberOfInputFields() {
-		int fieldcount = pom.getRegisterPage().getInputFieldCount();
-		logger.info("Verifying number of input fields in Register UI : {}", fieldcount);
-		Assert.assertEquals(fieldcount, 3, "Register page does not have 3 input fields");
+		int fieldCount = pom.getRegisterPage().getInputFieldCount();
+		logger.info("Verifying number of input fields in Register UI : {}", fieldCount);
+		Assert.assertEquals(fieldCount, 3, "Register page does not have 3 input fields");
 	}
 
 	@Test(priority = 3, dataProvider = "LabelNames", dataProviderClass = RegisterData.class)
-	public void verifylabelstext(String expectedlabels) {
-		List<String> actuallinks = pom.getRegisterPage().getRegisterLabelNames();
+	public void verifyLabelsText(String expectedLabels) {
+		List<String> actualLinks = pom.getRegisterPage().getRegisterLabelNames();
 		logger.info("Validating Register page labels");
 
-		Assert.assertTrue(actuallinks.contains(expectedlabels), "Missing label: " + expectedlabels);
+		Assert.assertTrue(actualLinks.contains(expectedLabels), "Missing label: " + expectedLabels);
 
 	}
 
 	@Test(priority = 4)
-	public void getbuttoncount() {
+	public void getButtonCount() {
 		int actualCount = pom.getRegisterPage().getButtonCount();
 		logger.info("Validating button count in Register UI");
 		Assert.assertEquals(actualCount, 1, "Button count mismatch in Register page");
@@ -45,39 +52,39 @@ public class TC04_Register extends Hooks {
 	}
 
 	@Test(priority = 5, dataProvider = "Registertext", dataProviderClass = RegisterData.class)
-	public void getbuttontext(String registertext) {
+	public void getButtonText(String registerText) {
 		List<String> actualButton = pom.getRegisterPage().getButtonText();
 		logger.info("Checking button text in Register UI");
-		Assert.assertTrue(actualButton.contains(registertext),
-				"Button text mismatch. Expected: " + registertext + " | Actual: " + actualButton);
+		Assert.assertTrue(actualButton.contains(registerText),
+				"Button text mismatch. Expected: " + registerText + " | Actual: " + actualButton);
 
 	}
 
 	@Test(priority = 6, dataProvider = "LinkNames", dataProviderClass = RegisterData.class)
-	public void getlinktext(String expectedlinks) {
-		List<String> actuallinks = pom.getRegisterPage().getRegisterPageLinkText();
-		logger.info("Validating Register page linktext");
-		Assert.assertTrue(actuallinks.contains(expectedlinks), "Missing label: " + expectedlinks);
+	public void getLinkText(String expectedLinks) {
+		List<String> actualLinks = pom.getRegisterPage().getRegisterPageLinkText();
+		logger.info("Validating Register page linkText");
+		Assert.assertTrue(actualLinks.contains(expectedLinks), "Missing label: " + expectedLinks);
 
 	}
 
 	@Test(priority = 7)
-	public void verifycompanyname() {
+	public void verifyCompanyName() {
 		String actualCompany = pom.getRegisterPage().getCompanyName().trim();
 		Assert.assertEquals(actualCompany, "NumpyNinja");
 
 	}
 
 	@Test(priority = 8, dataProvider = "passwordrules", dataProviderClass = RegisterData.class)
-	public void verifypasswordrules(String expectedpasswordrules) {
+	public void verifyPasswordRules(String expectedPasswordRules) {
 		List<String> actualList = pom.getRegisterPage().getPasswordRequirementsText();
 		logger.info("Validating Register page password rules");
-		Assert.assertTrue(actualList.contains(expectedpasswordrules), "Missing rules: " + expectedpasswordrules);
+		Assert.assertTrue(actualList.contains(expectedPasswordRules), "Missing rules: " + expectedPasswordRules);
 
 	}
 
 	@Test(priority = 9, dataProvider = "Negativeregisterdata", dataProviderClass = RegisterData.class)
-	public void verifyRegisterinvalid(String scenarioType, String submissionMethod, String message) {
+	public void verifyRegisterInvalid(String scenarioType, String submissionMethod, String message) {
 		logger.info("checking negative register data: scenarioType='{}', submissionMethod='{}', message='{}'",
 				scenarioType, submissionMethod, message);
 
@@ -91,7 +98,7 @@ public class TC04_Register extends Hooks {
 	}
 
 	@Test(priority = 10, dataProvider = "Validregisterdata", dataProviderClass = RegisterData.class)
-	public void verifyRegistervalid(String scenarioType, String submissionMethod, String message) {
+	public void verifyRegisterValid(String scenarioType, String submissionMethod, String message) {
 		logger.info("checking valid register data: scenarioType='{}', submissionMethod='{}', message='{}'",
 				scenarioType, submissionMethod, message);
 		pom.getRegisterPage().register(submissionMethod, scenarioType);
