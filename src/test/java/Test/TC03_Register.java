@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import TestPackage.RegisterData;
+import utils.ElementUtil;
 
 @Test(groups = "Get Started")
 public class TC03_Register extends Hooks {
@@ -23,7 +24,8 @@ public class TC03_Register extends Hooks {
 
 		logger.info("Check title for the page");
 		pom.getHomePage().navigatetoPages(text);
-		logger.info("Clicked link '{}' on Home Page", "Register");
+		logger.info("Clicked link '{}' on Home Page", text);
+		Assert.assertEquals(ElementUtil.getTitle(), "Register", "Navigation failed to Register page");
 
 	}
 
