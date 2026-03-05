@@ -60,17 +60,13 @@ public class HomePage {
 
 	@FindBy(css = "div.alert[role='alert']")
 	private WebElement alert;
-	
-	@FindBy(xpath = "//a[@href='/logout']") 
+
+	@FindBy(xpath = "//a[@href='/logout']")
 	private WebElement signOutButton;
 
 	public HomePage() {
 		this.driver = DriverFactory.getDriver();
 		PageFactory.initElements(driver, this);
-	}
-
-	public String getLoginSuccessMessage() {
-		return WaitUtils.getVisibleText(driver, loginAlert, 0);
 	}
 
 	public void clickSignInButton() {
@@ -135,10 +131,10 @@ public class HomePage {
 
 	public String getLinkName(String linkText) {
 		if (linkText.equalsIgnoreCase("Register")) {
-			logger.info("Getting text of Register link" + registerLink.getText());
+			logger.info("Getting text of Register link{}", registerLink.getText());
 			return registerLink.getText();
 		} else if (linkText.equalsIgnoreCase("Sign in")) {
-			logger.info("Getting text of Sign in link" + logInLink.getText());
+			logger.info("Getting text of Sign in link{}", logInLink.getText());
 			return logInLink.getText();
 		} else {
 			return "Invalid Link Text";
@@ -170,27 +166,8 @@ public class HomePage {
 		}
 	}
 
-	public void navigatetoPages(String pageInfo) {
-		WaitUtils.waitForVisibility(driver, parent, 10);
-		List<WebElement> childLink = parent.findElements(By.xpath(".//a"));
-		for (WebElement eachLink : childLink) {
-			String linkText = eachLink.getText();
-			logger.info("Checking link: " + linkText);
-			if (linkText.toLowerCase().contains(pageInfo.toLowerCase())) {
-				logger.info("in line 57");
-				WaitUtils.waitForVisibility(driver, eachLink, 10);
-				eachLink.click();
-				break;
-			}
-		}
-	}
-
-	public String getAlertMessage() {
-		return alert.getText().trim();
-	}
-
 	public void clickGetStarted(String cardTitle) {
-		logger.info("Clicking Get Started for card: " + cardTitle);
+		logger.info("Clicking Get Started for card: {}", cardTitle);
 		for (WebElement child : parentCard) {
 			List<WebElement> grandChild = child.findElements(By.xpath(".//h5"));
 
@@ -204,21 +181,18 @@ public class HomePage {
 
 			}
 		}
+
 	}
-	
-	public boolean isSignOutVisible() { 
-		try {
-			return signOutButton.isDisplayed();
-		} catch(Exception e) {
-			return false;
-		}
+
+	public String getAlertMessage() {
+		return alert.getText().trim();
 	}
-	
+
 	public void clickSignOutButton() {
-	    try {
-	        signOutButton.click();
-	    } catch (Exception e) {
-	        logger.warn("Sign Out button not found.");
-	    }
+		try {
+			signOutButton.click();
+		} catch (Exception e) {
+			logger.warn("Sign Out button not found.");
+		}
 	}
 }
