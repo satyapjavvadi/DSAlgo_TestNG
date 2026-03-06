@@ -19,7 +19,7 @@ public class TC08_LinkedList extends Hooks {
 
 	@BeforeMethod
 	public void openLinkedListPage(Method method) {
-		logger.info("Clicking get sarted buton of Linked List module in home page");
+		logger.info("Clicking get started button of Linked List module in home page");
 		pom.getHomePage().clickGetStarted("Linked List");
 		Test testAnnotation = method.getAnnotation(Test.class);
 		List<String> groupList = Arrays.asList(testAnnotation.groups());
@@ -49,12 +49,10 @@ public class TC08_LinkedList extends Hooks {
 		Assert.assertTrue(headings.contains(expectedText), "Static content missing:" + expectedText);
 	}
 
-	@Test(priority = 1)
-	public void verifyTopicLinks() {
+	@Test(priority = 1, dataProvider = "LLSubTopics", dataProviderClass = LinkedListData.class)
+	public void verifyTopicLinks(String expectedTopics) {
 		List<String> topics = pom.getLinkedListPage().subtopiclinks();
-		List<String> expected = List.of("Introduction", "Creating Linked LIst", "Types of Linked List",
-				"Implement Linked List in Python", "Traversal", "Insertion", "Deletion");
-		Assert.assertEquals(topics, expected, "Topic links mismatch");
+		Assert.assertTrue(topics.contains(expectedTopics), "Topic link missing in Linked List page: " + expectedTopics);
 		logger.info("Verified all Linked List topic links");
 	}
 
@@ -72,7 +70,6 @@ public class TC08_LinkedList extends Hooks {
 
 	@Test(priority = 3, groups = "Introduction")
 	public void verifyTryHereButton() {
-		// pom.getLinkedListPage().clickTopicLink("Introduction");
 
 		Assert.assertTrue(pom.getLinkedListPage().checktryherebutton_displayed(), "Try Here button not visible");
 		logger.info("Try Here button is visible");

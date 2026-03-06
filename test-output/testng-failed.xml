@@ -5,8 +5,8 @@
     <classes>
       <class name="Test.TC08_LinkedList">
         <methods>
-          <include name="setBrowser"/>
           <include name="setUp"/>
+          <include name="setBrowser"/>
           <include name="openLinkedListPage"/>
           <include name="verifyPracticeQuestionList"/>
           <include name="tearDown"/>

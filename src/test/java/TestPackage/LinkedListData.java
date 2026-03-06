@@ -13,6 +13,19 @@ public class LinkedListData {
 		};
 	}
 	
+	@DataProvider(name = "LLSubTopics")
+	public Object[][] LLtopics()
+	{
+		return new Object[][] {
+			{"Introduction"},
+			{"Creating Linked LIst"},
+			{"Types of Linked List"},
+			{"Implement Linked List in Python"},
+			{"Traversal"},
+			{"Insertion"},
+			{"Deletion"}};
+	}
+	
 	@DataProvider(name = "topics")
 	public Object[][] topics()
 	{
