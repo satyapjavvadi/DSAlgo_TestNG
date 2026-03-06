@@ -7,18 +7,17 @@ import java.util.List;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
-
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import TestPackage.ArrayData;
 import utils.ElementUtil;
 
-@Test(groups = { "Get Started", "Sign in" })
+@Test(groups = { "ArrayPage", "Get Started", "Sign in" })
 public class TC07_Array extends Hooks {
 
 	@BeforeMethod
-	public void navigateToArraymainpage(Method method) {
+	public void navigateToArrayMainPage(Method method) {
 
 		logger.info("Clicking get sarted buton of Array module in home page");
 		pom.getHomePage().clickGetStarted("Array");
@@ -26,14 +25,11 @@ public class TC07_Array extends Hooks {
 		List<String> groupList = Arrays.asList(testAnnotation.groups());
 		if (groupList.contains("Arrays in Python")) {
 			pom.getArrayPage().clickTopicLink("Arrays in Python");
-		}
-		else if(groupList.contains("Arrays using List")) {
+		} else if (groupList.contains("Arrays using List")) {
 			pom.getArrayPage().clickTopicLink("Arrays using List");
-		}
-		else if(groupList.contains("Basic Operations in Lists")) {
+		} else if (groupList.contains("Basic Operations in Lists")) {
 			pom.getArrayPage().clickTopicLink("Basic Operations in Lists");
-		}
-		else if(groupList.contains("Applications of Array")) {
+		} else if (groupList.contains("Applications of Array")) {
 			pom.getArrayPage().clickTopicLink("Applications of Array");
 		}
 	}
@@ -63,18 +59,17 @@ public class TC07_Array extends Hooks {
 	}
 
 	@Test(priority = 4, dataProvider = "Arraypageurl", dataProviderClass = ArrayData.class)
-	public void verifyArrayTopicurl(String topic, String topicurl) {
+	public void verifyArrayTopicUrl(String topic, String topicUrl) {
 		pom.getArrayPage().clickTopicLink(topic);
 
-		Assert.assertTrue(ElementUtil.getURL().contains(topicurl),
-				"Array page URL does not contain expected text: " + topicurl);
-		logger.info("Verified URL contains '{}'", topicurl);
+		Assert.assertTrue(ElementUtil.getURL().contains(topicUrl),
+				"Array page URL does not contain expected text: " + topicUrl);
+		logger.info("Verified URL contains '{}'", topicUrl);
 
 		ElementUtil.navigateBack();
 	}
 
-	@Test(priority = 5, groups = {"Arrays in Python", "Arrays Using List",
-	                       "Basic Operations in Lists", "Applications of Array"} )
+	@Test(priority = 5, groups = "Arrays in Python")
 	public void checkTryHereButton() {
 
 		Assert.assertTrue(pom.getArrayPage().checktryherebutton_displayed(), "Try Here button not visible");
@@ -82,8 +77,7 @@ public class TC07_Array extends Hooks {
 
 	}
 
-	@Test(priority = 6, groups = {"Arrays in Python", "Arrays Using List",
-            "Basic Operations in Lists", "Applications of Array"})
+	@Test(priority = 6, groups = "Arrays in Python")
 	public void openCodeEditor() {
 
 		pom.getArrayPage().clickTryHereButton();
@@ -93,8 +87,7 @@ public class TC07_Array extends Hooks {
 
 	}
 
-	@Test(priority = 7, groups = {"Arrays in Python", "Arrays Using List",
-            "Basic Operations in Lists", "Applications of Array"})
+	@Test(priority = 7, groups = "Arrays in Python")
 	public void checkPracticeQuestionlink() {
 
 		boolean isLinkVisible = pom.getArrayPage().isPracticeQuestionLinkVisible();
@@ -103,8 +96,7 @@ public class TC07_Array extends Hooks {
 
 	}
 
-	@Test(priority = 8, groups = {"Arrays in Python", "Arrays Using List",
-            "Basic Operations in Lists", "Applications of Array"}, dataProvider = "ArrayPracticequestions", dataProviderClass = ArrayData.class)
+	@Test(priority = 8, groups = "Arrays in Python", dataProvider = "ArrayPracticequestions", dataProviderClass = ArrayData.class)
 	public void viewPracticeQuestions(String expectedlist) {
 
 		pom.getArrayPage().clickPracticeQuestionsLink();
@@ -188,8 +180,7 @@ public class TC07_Array extends Hooks {
 		String[] groups = result.getMethod().getGroups();
 		List<String> groupList = Arrays.asList(groups);
 
-		if (groupList.contains("Arrays in Python") || groupList.contains("Arrays Using List") ||
-				groupList.contains("Basic Operations in Lists") || groupList.contains("Applications os Array")) {
+		if (groupList.contains("Arrays in Python")) {
 			while (!ElementUtil.getURL().contains("home")) {
 				ElementUtil.navigateBack();
 			}
