@@ -7,7 +7,6 @@ import java.util.List;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -26,23 +25,17 @@ public class TC08_LinkedList extends Hooks {
 		List<String> groupList = Arrays.asList(testAnnotation.groups());
 		if (groupList.contains("Introduction")) {
 			pom.getLinkedListPage().clickTopicLink("Introduction");
-		}
-		else if(groupList.contains("Creating Linked LIst")) {
+		} else if (groupList.contains("Creating Linked LIst")) {
 			pom.getLinkedListPage().clickTopicLink("Creating Linked List");
-		}
-		else if(groupList.contains("Types of Linked List")) {
+		} else if (groupList.contains("Types of Linked List")) {
 			pom.getLinkedListPage().clickTopicLink("Types of Linked List");
-		}
-		else if(groupList.contains("Implement Linked List in Python")) {
+		} else if (groupList.contains("Implement Linked List in Python")) {
 			pom.getLinkedListPage().clickTopicLink("Implement Linked List in Python");
-		}
-		else if(groupList.contains("Traversal")) {
+		} else if (groupList.contains("Traversal")) {
 			pom.getLinkedListPage().clickTopicLink("Traversal");
-		}
-		else if(groupList.contains("Insertion")) {
+		} else if (groupList.contains("Insertion")) {
 			pom.getLinkedListPage().clickTopicLink("Insertion");
-		}
-		else if(groupList.contains("Deletion")) {
+		} else if (groupList.contains("Deletion")) {
 			pom.getLinkedListPage().clickTopicLink("Deletion");
 		}
 	}
@@ -79,7 +72,7 @@ public class TC08_LinkedList extends Hooks {
 
 	@Test(priority = 3, groups = "Introduction")
 	public void verifyTryHereButton() {
-		//pom.getLinkedListPage().clickTopicLink("Introduction");
+		// pom.getLinkedListPage().clickTopicLink("Introduction");
 
 		Assert.assertTrue(pom.getLinkedListPage().checktryherebutton_displayed(), "Try Here button not visible");
 		logger.info("Try Here button is visible");
@@ -117,17 +110,17 @@ public class TC08_LinkedList extends Hooks {
 		Assert.assertTrue(!questions.isEmpty(), "Practice question list is empty");
 		logger.info("Practice questions displayed: {}", questions);
 	}
-	
-	 @AfterMethod
-	    public void backToHome(ITestResult result) {
-	        String[] groups = result.getMethod().getGroups();
-	        List<String> groupList = Arrays.asList(groups);
 
-	        if (groupList.contains("Introduction")) {
-	            while (!ElementUtil.getURL().contains("home")) {
-	                ElementUtil.navigateBack();
-	            }
-	        }
-	    }
+	@AfterMethod
+	public void backToHome(ITestResult result) {
+		String[] groups = result.getMethod().getGroups();
+		List<String> groupList = Arrays.asList(groups);
+
+		if (groupList.contains("Introduction")) {
+			while (!ElementUtil.getURL().contains("home")) {
+				ElementUtil.navigateBack();
+			}
+		}
+	}
 
 }
