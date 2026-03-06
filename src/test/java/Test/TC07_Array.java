@@ -27,17 +27,25 @@ public class TC07_Array extends Hooks {
 		if (groupList.contains("Arrays in Python")) {
 			pom.getArrayPage().clickTopicLink("Arrays in Python");
 		}
+		else if(groupList.contains("Arrays using List")) {
+			pom.getArrayPage().clickTopicLink("Arrays using List");
+		}
+		else if(groupList.contains("Basic Operations in Lists")) {
+			pom.getArrayPage().clickTopicLink("Basic Operations in Lists");
+		}
+		else if(groupList.contains("Applications of Array")) {
+			pom.getArrayPage().clickTopicLink("Applications of Array");
+		}
 	}
 
-	@Test(priority = 1, dataProvider = "Arraytext", dataProviderClass = ArrayData.class)
-	public void getArrayPage(String text) {
-		logger.info("Navigated to DS module: {}", text);
-
+	@Test(priority = 1)
+	public void getArrayPage() {
+		logger.debug("Current page title: {}", ElementUtil.getTitle());
 		Assert.assertEquals(ElementUtil.getTitle(), "Array", "Navigation failed to Array page");
 	}
 
 	@Test(priority = 2, dataProvider = "ArrayUIcontent", dataProviderClass = ArrayData.class)
-	public void Verifycontent(String content) {
+	public void verifyContent(String content) {
 
 		List<String> headings = pom.getArrayPage().getheadingtext();
 		logger.info("Headings on Array page: {}", headings);
@@ -46,7 +54,7 @@ public class TC07_Array extends Hooks {
 	}
 
 	@Test(priority = 3, dataProvider = "Arraytopics", dataProviderClass = ArrayData.class)
-	public void verifyArraytopics(String expectedtopics) {
+	public void verifyArrayTopics(String expectedtopics) {
 		List<String> actualSubtopics = pom.getArrayPage().subtopiclinks();
 		logger.info("Validating Array subtopics");
 
@@ -55,7 +63,7 @@ public class TC07_Array extends Hooks {
 	}
 
 	@Test(priority = 4, dataProvider = "Arraypageurl", dataProviderClass = ArrayData.class)
-	public void verifyArraytopicurl(String topic, String topicurl) {
+	public void verifyArrayTopicurl(String topic, String topicurl) {
 		pom.getArrayPage().clickTopicLink(topic);
 
 		Assert.assertTrue(ElementUtil.getURL().contains(topicurl),
@@ -65,7 +73,8 @@ public class TC07_Array extends Hooks {
 		ElementUtil.navigateBack();
 	}
 
-	@Test(priority = 5, groups = "Arrays in Python")
+	@Test(priority = 5, groups = {"Arrays in Python", "Arrays Using List",
+	                       "Basic Operations in Lists", "Applications of Array"} )
 	public void checkTryHereButton() {
 
 		Assert.assertTrue(pom.getArrayPage().checktryherebutton_displayed(), "Try Here button not visible");
@@ -73,8 +82,9 @@ public class TC07_Array extends Hooks {
 
 	}
 
-	@Test(priority = 6, groups = "Arrays in Python")
-	public void opencodeeditor() {
+	@Test(priority = 6, groups = {"Arrays in Python", "Arrays Using List",
+            "Basic Operations in Lists", "Applications of Array"})
+	public void openCodeEditor() {
 
 		pom.getArrayPage().clickTryHereButton();
 		logger.info("Clicked '{}' button", "Try here>>>");
@@ -83,8 +93,9 @@ public class TC07_Array extends Hooks {
 
 	}
 
-	@Test(priority = 7, groups = "Arrays in Python")
-	public void checkpracticequestionlink() {
+	@Test(priority = 7, groups = {"Arrays in Python", "Arrays Using List",
+            "Basic Operations in Lists", "Applications of Array"})
+	public void checkPracticeQuestionlink() {
 
 		boolean isLinkVisible = pom.getArrayPage().isPracticeQuestionLinkVisible();
 		Assert.assertTrue(isLinkVisible, "Practice Questions link not present ");
@@ -92,8 +103,9 @@ public class TC07_Array extends Hooks {
 
 	}
 
-	@Test(priority = 8, groups = "Arrays in Python", dataProvider = "ArrayPracticequestions", dataProviderClass = ArrayData.class)
-	public void viewpracticequestions(String expectedlist) {
+	@Test(priority = 8, groups = {"Arrays in Python", "Arrays Using List",
+            "Basic Operations in Lists", "Applications of Array"}, dataProvider = "ArrayPracticequestions", dataProviderClass = ArrayData.class)
+	public void viewPracticeQuestions(String expectedlist) {
 
 		pom.getArrayPage().clickPracticeQuestionsLink();
 
@@ -111,7 +123,7 @@ public class TC07_Array extends Hooks {
 	}
 
 	@Test(priority = 9, groups = "Arrays in Python", dataProvider = "ArrayPracticequestions", dataProviderClass = ArrayData.class)
-	public void viewquestionpage(String expectedList) {
+	public void viewQuestionPage(String expectedList) {
 
 		pom.getArrayPage().clickPracticeQuestionsLink();
 		pom.getArrayPage().clickProblemLink(expectedList);
@@ -122,7 +134,7 @@ public class TC07_Array extends Hooks {
 	}
 
 	@Test(priority = 10, groups = "Arrays in Python", dataProvider = "ArrayPracticequestions", dataProviderClass = ArrayData.class)
-	public void viewrunbutton(String expectedList) {
+	public void viewRunButton(String expectedList) {
 
 		pom.getArrayPage().clickPracticeQuestionsLink();
 		pom.getArrayPage().clickProblemLink(expectedList);
@@ -133,7 +145,7 @@ public class TC07_Array extends Hooks {
 	}
 
 	@Test(priority = 11, groups = "Arrays in Python", dataProvider = "ArrayPracticequestions", dataProviderClass = ArrayData.class)
-	public void viewsubmitbutton(String expectedList) {
+	public void viewSubmitButton(String expectedList) {
 
 		pom.getArrayPage().clickPracticeQuestionsLink();
 		pom.getArrayPage().clickProblemLink(expectedList);
@@ -144,7 +156,7 @@ public class TC07_Array extends Hooks {
 	}
 
 	@Test(priority = 12, groups = "Arrays in Python", dataProvider = "ArrayPracticequestions", dataProviderClass = ArrayData.class)
-	public void runemptycode(String expectedList) {
+	public void runEmptyCode(String expectedList) {
 
 		pom.getArrayPage().clickPracticeQuestionsLink();
 		pom.getArrayPage().clickProblemLink(expectedList);
@@ -159,7 +171,7 @@ public class TC07_Array extends Hooks {
 	}
 
 	@Test(priority = 13, groups = "Arrays in Python", dataProvider = "TryEditorQuestion", dataProviderClass = ArrayData.class)
-	public void runtryeditor(String question) {
+	public void runTryEditor(String question) {
 
 		pom.getArrayPage().clickTryHereButton();
 		logger.info("User is on Try Editor page");
@@ -176,7 +188,8 @@ public class TC07_Array extends Hooks {
 		String[] groups = result.getMethod().getGroups();
 		List<String> groupList = Arrays.asList(groups);
 
-		if (groupList.contains("Arrays in Python")) {
+		if (groupList.contains("Arrays in Python") || groupList.contains("Arrays Using List") ||
+				groupList.contains("Basic Operations in Lists") || groupList.contains("Applications os Array")) {
 			while (!ElementUtil.getURL().contains("home")) {
 				ElementUtil.navigateBack();
 			}

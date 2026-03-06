@@ -6,11 +6,6 @@ import org.testng.annotations.DataProvider;
 
 public class ArrayData {
 
-	@DataProvider(name = "Arraytext")
-	public Object[][] getLinkData() {
-		return new Object[][] { { "Array" } };
-	}
-
 	@DataProvider(name = "ArrayUIcontent")
 	public Object[][] UIContent() {
 		return new Object[][] { { "Array" }, { "Topics Covered" } };
