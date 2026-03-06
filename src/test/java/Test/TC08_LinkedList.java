@@ -1,9 +1,14 @@
 package Test;
 
+import java.lang.reflect.Method;
+import java.util.Arrays;
 import java.util.List;
 
 import org.testng.Assert;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import DriverManager.DriverFactory;
@@ -13,12 +18,33 @@ import utils.ElementUtil;
 @Test(groups = { "LinkedList", "Get Started", "Sign in" })
 public class TC08_LinkedList extends Hooks {
 
-	@BeforeClass
-	public void openLinkedListPage() {
+	@BeforeMethod
+	public void openLinkedListPage(Method method) {
+		logger.info("Clicking get sarted buton of Linked List module in home page");
 		pom.getHomePage().clickGetStarted("Linked List");
-		logger.info("User is in LinkedList page");
-
-		Assert.assertEquals(ElementUtil.getTitle(), "Linked List", "Navigation to Linked List failed");
+		Test testAnnotation = method.getAnnotation(Test.class);
+		List<String> groupList = Arrays.asList(testAnnotation.groups());
+		if (groupList.contains("Introduction")) {
+			pom.getLinkedListPage().clickTopicLink("Introduction");
+		}
+		else if(groupList.contains("Creating Linked LIst")) {
+			pom.getLinkedListPage().clickTopicLink("Creating Linked List");
+		}
+		else if(groupList.contains("Types of Linked List")) {
+			pom.getLinkedListPage().clickTopicLink("Types of Linked List");
+		}
+		else if(groupList.contains("Implement Linked List in Python")) {
+			pom.getLinkedListPage().clickTopicLink("Implement Linked List in Python");
+		}
+		else if(groupList.contains("Traversal")) {
+			pom.getLinkedListPage().clickTopicLink("Traversal");
+		}
+		else if(groupList.contains("Insertion")) {
+			pom.getLinkedListPage().clickTopicLink("Insertion");
+		}
+		else if(groupList.contains("Deletion")) {
+			pom.getLinkedListPage().clickTopicLink("Deletion");
+		}
 	}
 
 	@Test(priority = 0, dataProvider = "staticContent", dataProviderClass = LinkedListData.class)
@@ -48,19 +74,19 @@ public class TC08_LinkedList extends Hooks {
 
 		logger.info("Verified topic navigation: {}", topic);
 
-		DriverFactory.getDriver().navigate().back();
+		ElementUtil.navigateBack();
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3, groups = "Introduction")
 	public void verifyTryHereButton() {
-		pom.getLinkedListPage().clickTopicLink("Introduction");
+		//pom.getLinkedListPage().clickTopicLink("Introduction");
 
 		Assert.assertTrue(pom.getLinkedListPage().checktryherebutton_displayed(), "Try Here button not visible");
 		logger.info("Try Here button is visible");
 
 	}
 
-	@Test(priority = 4)
+	@Test(priority = 4, groups = "Introduction")
 	public void verifyTryHereEditorOpens() {
 		pom.getLinkedListPage().clickTryHereButton();
 
@@ -69,14 +95,14 @@ public class TC08_LinkedList extends Hooks {
 		DriverFactory.getDriver().navigate().back();
 	}
 
-	@Test(priority = 5)
+	@Test(priority = 5, groups = "Introduction")
 	public void verifyPracticeQuestionsLink() {
 		Assert.assertTrue(pom.getLinkedListPage().isPracticeQuestionLinkVisible(),
 				"Practice Questions Link not visible");
 		logger.info("Practice Questions link is visible");
 	}
 
-	@Test(priority = 6)
+	@Test(priority = 6, groups = "Introduction")
 	public void verifyPracticeQuestionsPage() {
 		pom.getLinkedListPage().clickPracticeQuestionsLink();
 		Assert.assertTrue(DriverFactory.getDriver().getPageSource().contains("Practice Questions"),
@@ -84,12 +110,24 @@ public class TC08_LinkedList extends Hooks {
 		logger.info("Practice questions page opened");
 	}
 
-	@Test(priority = 7)
+	@Test(priority = 7, groups = "Introduction")
 	public void verifyPracticeQuestionList() {
 		pom.getLinkedListPage().clickPracticeQuestionsLink();
 		List<String> questions = pom.getLinkedListPage().getQuestionsList();
 		Assert.assertTrue(!questions.isEmpty(), "Practice question list is empty");
 		logger.info("Practice questions displayed: {}", questions);
 	}
+	
+	 @AfterMethod
+	    public void backToHome(ITestResult result) {
+	        String[] groups = result.getMethod().getGroups();
+	        List<String> groupList = Arrays.asList(groups);
+
+	        if (groupList.contains("Introduction")) {
+	            while (!ElementUtil.getURL().contains("home")) {
+	                ElementUtil.navigateBack();
+	            }
+	        }
+	    }
 
 }

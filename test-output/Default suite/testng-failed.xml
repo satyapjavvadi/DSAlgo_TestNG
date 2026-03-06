@@ -5,11 +5,12 @@
     <classes>
       <class name="Test.TC08_LinkedList">
         <methods>
-          <include name="setUp"/>
           <include name="setBrowser"/>
+          <include name="setUp"/>
           <include name="openLinkedListPage"/>
           <include name="verifyPracticeQuestionList"/>
           <include name="tearDown"/>
+          <include name="backToHome"/>
         </methods>
       </class> <!-- Test.TC08_LinkedList -->
     </classes>

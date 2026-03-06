@@ -11,4 +11,8 @@ public class ElementUtil {
 	public static String getTitle() {
 		return DriverFactory.getDriver().getTitle();
 	}
+	
+	public static void navigateBack() {
+		DriverFactory.getDriver().navigate().back();
+	}
 }
