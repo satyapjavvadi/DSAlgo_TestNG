@@ -1,0 +1,30 @@
+package TestPackage;
+
+import org.testng.annotations.DataProvider;
+
+public class QueueData {
+	@DataProvider(name = "Queuetext")
+	public Object[][] getLinkData() {
+		return new Object[][] { { "Queue" } };
+	}
+
+	@DataProvider(name = "QueueUIcontent")
+	public Object[][] UIContent() {
+		return new Object[][] { { "Queue" }, { "Topics Covered" } };
+	}
+
+	@DataProvider(name = "Queuetopics")
+	public Object[][] getQueuetopics() {
+		return new Object[][] { { "Implementation of Queue in Python" }, { "Implementation using collections.deque" },
+				{ "Implementation using array" }, { "Queue Operations" } };
+	}
+
+	@DataProvider(name = "Queuepageurl")
+	public Object[][] verifyQueuepageurl() {
+		return new Object[][] { { "Implementation of Queue in Python", "implementation-lists" },
+				{ "Implementation using collections.deque", "implementation-collections" },
+				{ "Implementation using array", "Implementation-array" }, { "Queue Operations", "QueueOp" }
+
+		};
+	}
+}
