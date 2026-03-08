@@ -1,50 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="20" failed="1" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-06T13:08:34 PST" name="Default suite" finished-at="2026-03-06T13:12:28 PST" duration-ms="233578">
+  <suite started-at="2026-03-07T17:56:10 PST" name="Default suite" finished-at="2026-03-07T17:56:52 PST" duration-ms="41966">
     <groups>
-      <group name="Introduction">
-        <method signature="TC08_LinkedList.verifyTryHereButton()[pri:3, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyTryHereButton" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyTryHereEditorOpens()[pri:4, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyTryHereEditorOpens" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyPracticeQuestionsLink()[pri:5, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyPracticeQuestionsLink" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyPracticeQuestionsPage()[pri:6, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyPracticeQuestionsPage" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyPracticeQuestionList()[pri:7, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyPracticeQuestionList" class="Test.TC08_LinkedList"/>
-      </group> <!-- Introduction -->
+      <group name="validLogin">
+        <method signature="TC04_Login.verifyValidLogin(java.lang.String,java.lang.String)[pri:5, instance:Test.TC04_Login@5a2f016d]" name="verifyValidLogin" class="Test.TC04_Login"/>
+      </group> <!-- validLogin -->
       <group name="Get Started">
-        <method signature="TC08_LinkedList.verifyStaticContent(java.lang.String)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyStaticContent" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyTopicLinks" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyTopicNavigation" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyTryHereButton()[pri:3, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyTryHereButton" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyTryHereEditorOpens()[pri:4, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyTryHereEditorOpens" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyPracticeQuestionsLink()[pri:5, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyPracticeQuestionsLink" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyPracticeQuestionsPage()[pri:6, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyPracticeQuestionsPage" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyPracticeQuestionList()[pri:7, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyPracticeQuestionList" class="Test.TC08_LinkedList"/>
+        <method signature="TC04_Login.verifyInputFieldCount()[pri:0, instance:Test.TC04_Login@5a2f016d]" name="verifyInputFieldCount" class="Test.TC04_Login"/>
+        <method signature="TC04_Login.verifyLoginLabels(java.lang.String)[pri:1, instance:Test.TC04_Login@5a2f016d]" name="verifyLoginLabels" class="Test.TC04_Login"/>
+        <method signature="TC04_Login.verifyButtonCount()[pri:2, instance:Test.TC04_Login@5a2f016d]" name="verifyButtonCount" class="Test.TC04_Login"/>
+        <method signature="TC04_Login.verifyLoginButtonText()[pri:3, instance:Test.TC04_Login@5a2f016d]" name="verifyLoginButtonText" class="Test.TC04_Login"/>
+        <method signature="TC04_Login.verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d]" name="verifyInvalidLogin" class="Test.TC04_Login"/>
+        <method signature="TC04_Login.verifyValidLogin(java.lang.String,java.lang.String)[pri:5, instance:Test.TC04_Login@5a2f016d]" name="verifyValidLogin" class="Test.TC04_Login"/>
       </group> <!-- Get Started -->
-      <group name="Sign in">
-        <method signature="TC08_LinkedList.verifyStaticContent(java.lang.String)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyStaticContent" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyTopicLinks" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyTopicNavigation" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyTryHereButton()[pri:3, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyTryHereButton" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyTryHereEditorOpens()[pri:4, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyTryHereEditorOpens" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyPracticeQuestionsLink()[pri:5, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyPracticeQuestionsLink" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyPracticeQuestionsPage()[pri:6, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyPracticeQuestionsPage" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyPracticeQuestionList()[pri:7, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyPracticeQuestionList" class="Test.TC08_LinkedList"/>
-      </group> <!-- Sign in -->
-      <group name="LinkedList">
-        <method signature="TC08_LinkedList.verifyStaticContent(java.lang.String)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyStaticContent" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyTopicLinks" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyTopicNavigation" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyTryHereButton()[pri:3, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyTryHereButton" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyTryHereEditorOpens()[pri:4, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyTryHereEditorOpens" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyPracticeQuestionsLink()[pri:5, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyPracticeQuestionsLink" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyPracticeQuestionsPage()[pri:6, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyPracticeQuestionsPage" class="Test.TC08_LinkedList"/>
-        <method signature="TC08_LinkedList.verifyPracticeQuestionList()[pri:7, instance:Test.TC08_LinkedList@1dfd5f51]" name="verifyPracticeQuestionList" class="Test.TC08_LinkedList"/>
-      </group> <!-- LinkedList -->
     </groups>
-    <test started-at="2026-03-06T13:08:34 PST" name="Default test" finished-at="2026-03-06T13:12:28 PST" duration-ms="233578">
-      <class name="Test.TC08_LinkedList">
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:08:34 PST" name="setBrowser" finished-at="2026-03-06T13:08:34 PST" duration-ms="579" status="PASS">
+    <test started-at="2026-03-07T17:56:10 PST" name="Default test" finished-at="2026-03-07T17:56:52 PST" duration-ms="41966">
+      <class name="Test.TC04_Login">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:08 PST" name="setBrowser" finished-at="2026-03-07T17:56:10 PST" duration-ms="2849" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,712 +29,418 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:08:34 PST" name="setUp" finished-at="2026-03-06T13:08:40 PST" duration-ms="5939" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:10 PST" name="setUp" finished-at="2026-03-07T17:56:29 PST" duration-ms="18242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:08:40 PST" name="openLinkedListPage" finished-at="2026-03-06T13:08:41 PST" duration-ms="758" status="PASS">
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:29 PST" name="openLoginPage" finished-at="2026-03-07T17:56:30 PST" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyInputFieldCount()[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:30 PST" name="verifyInputFieldCount" finished-at="2026-03-07T17:56:31 PST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputFieldCount -->
+        <test-method is-config="true" signature="signOut(org.testng.ITestResult)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:31 PST" name="signOut" finished-at="2026-03-07T17:56:31 PST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyStaticContent(java.lang.String)]]>
+                <![CDATA[[TestResult name=verifyInputFieldCount status=SUCCESS method=TC04_Login.verifyInputFieldCount()[pri:0, instance:Test.TC04_Login@5a2f016d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyStaticContent(java.lang.String)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:08:41 PST" name="verifyStaticContent" data-provider="staticContent" finished-at="2026-03-06T13:08:41 PST" duration-ms="277" status="PASS">
+        </test-method> <!-- signOut -->
+        <test-method signature="verifyLoginLabels(java.lang.String)[pri:1, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:31 PST" name="verifyLoginLabels" data-provider="loginLabels" finished-at="2026-03-07T17:56:31 PST" duration-ms="161" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Linked List]]>
+                <![CDATA[Username:]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyStaticContent -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:08:41 PST" name="backToHome" finished-at="2026-03-06T13:08:41 PST" duration-ms="2" status="PASS">
+        </test-method> <!-- verifyLoginLabels -->
+        <test-method is-config="true" signature="signOut(org.testng.ITestResult)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:31 PST" name="signOut" finished-at="2026-03-07T17:56:31 PST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyStaticContent status=SUCCESS method=TC08_LinkedList.verifyStaticContent(java.lang.String)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginLabels status=SUCCESS method=TC04_Login.verifyLoginLabels(java.lang.String)[pri:1, instance:Test.TC04_Login@5a2f016d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:08:41 PST" name="openLinkedListPage" finished-at="2026-03-06T13:08:51 PST" duration-ms="10050" status="PASS">
+        </test-method> <!-- signOut -->
+        <test-method signature="verifyLoginLabels(java.lang.String)[pri:1, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:31 PST" name="verifyLoginLabels" data-provider="loginLabels" finished-at="2026-03-07T17:56:31 PST" duration-ms="158" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyStaticContent(java.lang.String)]]>
+                <![CDATA[Password:]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyStaticContent(java.lang.String)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:08:51 PST" name="verifyStaticContent" data-provider="staticContent" finished-at="2026-03-06T13:08:52 PST" duration-ms="221" status="PASS">
+        </test-method> <!-- verifyLoginLabels -->
+        <test-method is-config="true" signature="signOut(org.testng.ITestResult)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:31 PST" name="signOut" finished-at="2026-03-07T17:56:31 PST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Topics Covered]]>
+                <![CDATA[[TestResult name=verifyLoginLabels status=SUCCESS method=TC04_Login.verifyLoginLabels(java.lang.String)[pri:1, instance:Test.TC04_Login@5a2f016d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyStaticContent -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:08:52 PST" name="backToHome" finished-at="2026-03-06T13:08:52 PST" duration-ms="1" status="PASS">
+        </test-method> <!-- signOut -->
+        <test-method signature="verifyButtonCount()[pri:2, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:31 PST" name="verifyButtonCount" finished-at="2026-03-07T17:56:31 PST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyButtonCount -->
+        <test-method is-config="true" signature="signOut(org.testng.ITestResult)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:31 PST" name="signOut" finished-at="2026-03-07T17:56:31 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyStaticContent status=SUCCESS method=TC08_LinkedList.verifyStaticContent(java.lang.String)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
+                <![CDATA[[TestResult name=verifyButtonCount status=SUCCESS method=TC04_Login.verifyButtonCount()[pri:2, instance:Test.TC04_Login@5a2f016d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:08:52 PST" name="openLinkedListPage" finished-at="2026-03-06T13:09:02 PST" duration-ms="10036" status="PASS">
+        </test-method> <!-- signOut -->
+        <test-method signature="verifyLoginButtonText()[pri:3, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:31 PST" name="verifyLoginButtonText" finished-at="2026-03-07T17:56:32 PST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonText -->
+        <test-method is-config="true" signature="signOut(org.testng.ITestResult)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:32 PST" name="signOut" finished-at="2026-03-07T17:56:32 PST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTopicLinks(java.lang.String)]]>
+                <![CDATA[[TestResult name=verifyLoginButtonText status=SUCCESS method=TC04_Login.verifyLoginButtonText()[pri:3, instance:Test.TC04_Login@5a2f016d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:02 PST" name="verifyTopicLinks" data-provider="LLSubTopics" finished-at="2026-03-06T13:09:02 PST" duration-ms="639" status="PASS">
+        </test-method> <!-- signOut -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:32 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-03-07T17:56:34 PST" duration-ms="1629" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Introduction]]>
+                <![CDATA[Null value in cred]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[submits the login form]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[username field]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTopicLinks -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:02 PST" name="backToHome" finished-at="2026-03-06T13:09:02 PST" duration-ms="1" status="PASS">
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="signOut(org.testng.ITestResult)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:34 PST" name="signOut" finished-at="2026-03-07T17:56:34 PST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTopicLinks status=SUCCESS method=TC08_LinkedList.verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
+                <![CDATA[[TestResult name=verifyInvalidLogin status=SUCCESS method=TC04_Login.verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:02 PST" name="openLinkedListPage" finished-at="2026-03-06T13:09:12 PST" duration-ms="10064" status="PASS">
+        </test-method> <!-- signOut -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:34 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-03-07T17:56:35 PST" duration-ms="1826" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTopicLinks(java.lang.String)]]>
+                <![CDATA[Null value in cred]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[presses Enter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[username field]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:12 PST" name="verifyTopicLinks" data-provider="LLSubTopics" finished-at="2026-03-06T13:09:13 PST" duration-ms="701" status="PASS">
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="signOut(org.testng.ITestResult)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:35 PST" name="signOut" finished-at="2026-03-07T17:56:35 PST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Creating Linked LIst]]>
+                <![CDATA[[TestResult name=verifyInvalidLogin status=SUCCESS method=TC04_Login.verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTopicLinks -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:13 PST" name="backToHome" finished-at="2026-03-06T13:09:13 PST" duration-ms="1" status="PASS">
+        </test-method> <!-- signOut -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:35 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-03-07T17:56:36 PST" duration-ms="663" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTopicLinks status=SUCCESS method=TC08_LinkedList.verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
+                <![CDATA[Null value in password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[submits the login form]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password field]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:13 PST" name="openLinkedListPage" finished-at="2026-03-06T13:09:23 PST" duration-ms="10122" status="PASS">
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="signOut(org.testng.ITestResult)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:36 PST" name="signOut" finished-at="2026-03-07T17:56:36 PST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTopicLinks(java.lang.String)]]>
+                <![CDATA[[TestResult name=verifyInvalidLogin status=SUCCESS method=TC04_Login.verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:23 PST" name="verifyTopicLinks" data-provider="LLSubTopics" finished-at="2026-03-06T13:09:24 PST" duration-ms="697" status="PASS">
+        </test-method> <!-- signOut -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:36 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-03-07T17:56:37 PST" duration-ms="1233" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Types of Linked List]]>
+                <![CDATA[Null value in password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[presses Enter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password field]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTopicLinks -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:24 PST" name="backToHome" finished-at="2026-03-06T13:09:24 PST" duration-ms="1" status="PASS">
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="signOut(org.testng.ITestResult)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:37 PST" name="signOut" finished-at="2026-03-07T17:56:37 PST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTopicLinks status=SUCCESS method=TC08_LinkedList.verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
+                <![CDATA[[TestResult name=verifyInvalidLogin status=SUCCESS method=TC04_Login.verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:24 PST" name="openLinkedListPage" finished-at="2026-03-06T13:09:34 PST" duration-ms="10037" status="PASS">
+        </test-method> <!-- signOut -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:37 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-03-07T17:56:38 PST" duration-ms="987" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTopicLinks(java.lang.String)]]>
+                <![CDATA[Null value in username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[submits the login form]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[username field]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:34 PST" name="verifyTopicLinks" data-provider="LLSubTopics" finished-at="2026-03-06T13:09:34 PST" duration-ms="320" status="PASS">
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="signOut(org.testng.ITestResult)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:38 PST" name="signOut" finished-at="2026-03-07T17:56:38 PST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Implement Linked List in Python]]>
+                <![CDATA[[TestResult name=verifyInvalidLogin status=SUCCESS method=TC04_Login.verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTopicLinks -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:34 PST" name="backToHome" finished-at="2026-03-06T13:09:34 PST" duration-ms="0" status="PASS">
+        </test-method> <!-- signOut -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:38 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-03-07T17:56:39 PST" duration-ms="949" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTopicLinks status=SUCCESS method=TC08_LinkedList.verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
+                <![CDATA[Null value in username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[presses Enter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[username field]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:34 PST" name="openLinkedListPage" finished-at="2026-03-06T13:09:44 PST" duration-ms="10063" status="PASS">
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="signOut(org.testng.ITestResult)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:39 PST" name="signOut" finished-at="2026-03-07T17:56:39 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTopicLinks(java.lang.String)]]>
+                <![CDATA[[TestResult name=verifyInvalidLogin status=SUCCESS method=TC04_Login.verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:44 PST" name="verifyTopicLinks" data-provider="LLSubTopics" finished-at="2026-03-06T13:09:45 PST" duration-ms="666" status="PASS">
+        </test-method> <!-- signOut -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:39 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-03-07T17:56:41 PST" duration-ms="1189" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Traversal]]>
+                <![CDATA[Invalid user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[initiates login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alert]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTopicLinks -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:45 PST" name="backToHome" finished-at="2026-03-06T13:09:45 PST" duration-ms="1" status="PASS">
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="signOut(org.testng.ITestResult)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:41 PST" name="signOut" finished-at="2026-03-07T17:56:41 PST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTopicLinks status=SUCCESS method=TC08_LinkedList.verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
+                <![CDATA[[TestResult name=verifyInvalidLogin status=SUCCESS method=TC04_Login.verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:45 PST" name="openLinkedListPage" finished-at="2026-03-06T13:09:55 PST" duration-ms="10035" status="PASS">
+        </test-method> <!-- signOut -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:41 PST" name="verifyInvalidLogin" data-provider="negativeData" finished-at="2026-03-07T17:56:43 PST" duration-ms="2352" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTopicLinks(java.lang.String)]]>
+                <![CDATA[Invalid password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[initiates login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alert]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:55 PST" name="verifyTopicLinks" data-provider="LLSubTopics" finished-at="2026-03-06T13:09:55 PST" duration-ms="414" status="PASS">
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="signOut(org.testng.ITestResult)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:43 PST" name="signOut" finished-at="2026-03-07T17:56:43 PST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Insertion]]>
+                <![CDATA[[TestResult name=verifyInvalidLogin status=SUCCESS method=TC04_Login.verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.TC04_Login@5a2f016d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTopicLinks -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:55 PST" name="backToHome" finished-at="2026-03-06T13:09:55 PST" duration-ms="0" status="PASS">
+        </test-method> <!-- signOut -->
+        <test-method signature="verifyValidLogin(java.lang.String,java.lang.String)[pri:5, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:43 PST" name="verifyValidLogin" data-provider="validLoginData" finished-at="2026-03-07T17:56:46 PST" duration-ms="3125" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTopicLinks status=SUCCESS method=TC08_LinkedList.verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
+                <![CDATA[Submits the login form]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid_login]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:09:56 PST" name="openLinkedListPage" finished-at="2026-03-06T13:10:06 PST" duration-ms="10018" status="PASS">
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="signOut(org.testng.ITestResult)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:46 PST" name="signOut" finished-at="2026-03-07T17:56:48 PST" duration-ms="1836" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTopicLinks(java.lang.String)]]>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=TC04_Login.verifyValidLogin(java.lang.String,java.lang.String)[pri:5, instance:Test.TC04_Login@5a2f016d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:10:06 PST" name="verifyTopicLinks" data-provider="LLSubTopics" finished-at="2026-03-06T13:10:06 PST" duration-ms="696" status="PASS">
+        </test-method> <!-- signOut -->
+        <test-method signature="verifyValidLogin(java.lang.String,java.lang.String)[pri:5, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:48 PST" name="verifyValidLogin" data-provider="validLoginData" finished-at="2026-03-07T17:56:49 PST" duration-ms="1371" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Deletion]]>
+                <![CDATA[confirms login using Enter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid_login]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTopicLinks -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:10:06 PST" name="backToHome" finished-at="2026-03-06T13:10:06 PST" duration-ms="2" status="PASS">
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="signOut(org.testng.ITestResult)[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:49 PST" name="signOut" finished-at="2026-03-07T17:56:49 PST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTopicLinks status=SUCCESS method=TC08_LinkedList.verifyTopicLinks(java.lang.String)[pri:1, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=TC04_Login.verifyValidLogin(java.lang.String,java.lang.String)[pri:5, instance:Test.TC04_Login@5a2f016d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:10:06 PST" name="openLinkedListPage" finished-at="2026-03-06T13:10:16 PST" duration-ms="10072" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTopicNavigation(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:10:16 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-06T13:10:18 PST" duration-ms="1574" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Introduction]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTopicNavigation -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:10:18 PST" name="backToHome" finished-at="2026-03-06T13:10:18 PST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTopicNavigation status=SUCCESS method=TC08_LinkedList.verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:10:18 PST" name="openLinkedListPage" finished-at="2026-03-06T13:10:28 PST" duration-ms="10041" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTopicNavigation(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:10:28 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-06T13:10:29 PST" duration-ms="1444" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Creating Linked LIst]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTopicNavigation -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:10:29 PST" name="backToHome" finished-at="2026-03-06T13:10:29 PST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTopicNavigation status=SUCCESS method=TC08_LinkedList.verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:10:29 PST" name="openLinkedListPage" finished-at="2026-03-06T13:10:39 PST" duration-ms="10052" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTopicNavigation(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:10:39 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-06T13:10:41 PST" duration-ms="1455" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Types of Linked List]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTopicNavigation -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:10:41 PST" name="backToHome" finished-at="2026-03-06T13:10:41 PST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTopicNavigation status=SUCCESS method=TC08_LinkedList.verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:10:41 PST" name="openLinkedListPage" finished-at="2026-03-06T13:10:51 PST" duration-ms="10064" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTopicNavigation(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:10:51 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-06T13:10:52 PST" duration-ms="1108" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Implement Linked List in Python]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTopicNavigation -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:10:52 PST" name="backToHome" finished-at="2026-03-06T13:10:52 PST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTopicNavigation status=SUCCESS method=TC08_LinkedList.verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:10:52 PST" name="openLinkedListPage" finished-at="2026-03-06T13:11:02 PST" duration-ms="10040" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTopicNavigation(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:02 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-06T13:11:04 PST" duration-ms="1431" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Traversal]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTopicNavigation -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:04 PST" name="backToHome" finished-at="2026-03-06T13:11:04 PST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTopicNavigation status=SUCCESS method=TC08_LinkedList.verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:04 PST" name="openLinkedListPage" finished-at="2026-03-06T13:11:14 PST" duration-ms="10080" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTopicNavigation(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:14 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-06T13:11:15 PST" duration-ms="1394" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Insertion]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTopicNavigation -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:15 PST" name="backToHome" finished-at="2026-03-06T13:11:15 PST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTopicNavigation status=SUCCESS method=TC08_LinkedList.verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:15 PST" name="openLinkedListPage" finished-at="2026-03-06T13:11:25 PST" duration-ms="10048" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTopicNavigation(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:25 PST" name="verifyTopicNavigation" data-provider="topics" finished-at="2026-03-06T13:11:26 PST" duration-ms="1212" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Deletion]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTopicNavigation -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:26 PST" name="backToHome" finished-at="2026-03-06T13:11:26 PST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTopicNavigation status=SUCCESS method=TC08_LinkedList.verifyTopicNavigation(java.lang.String)[pri:2, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:26 PST" name="openLinkedListPage" finished-at="2026-03-06T13:11:37 PST" duration-ms="11026" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTryHereButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTryHereButton()[pri:3, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:37 PST" name="verifyTryHereButton" finished-at="2026-03-06T13:11:37 PST" duration-ms="59" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTryHereButton -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:37 PST" name="backToHome" finished-at="2026-03-06T13:11:38 PST" duration-ms="284" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTryHereButton status=SUCCESS method=TC08_LinkedList.verifyTryHereButton()[pri:3, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:38 PST" name="openLinkedListPage" finished-at="2026-03-06T13:11:39 PST" duration-ms="1331" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyTryHereEditorOpens()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyTryHereEditorOpens()[pri:4, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:39 PST" name="verifyTryHereEditorOpens" finished-at="2026-03-06T13:11:40 PST" duration-ms="1398" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTryHereEditorOpens -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:40 PST" name="backToHome" finished-at="2026-03-06T13:11:40 PST" duration-ms="112" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTryHereEditorOpens status=SUCCESS method=TC08_LinkedList.verifyTryHereEditorOpens()[pri:4, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:40 PST" name="openLinkedListPage" finished-at="2026-03-06T13:11:42 PST" duration-ms="1445" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyPracticeQuestionsLink()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyPracticeQuestionsLink()[pri:5, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:42 PST" name="verifyPracticeQuestionsLink" finished-at="2026-03-06T13:11:42 PST" duration-ms="108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPracticeQuestionsLink -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:42 PST" name="backToHome" finished-at="2026-03-06T13:11:42 PST" duration-ms="172" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPracticeQuestionsLink status=SUCCESS method=TC08_LinkedList.verifyPracticeQuestionsLink()[pri:5, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:42 PST" name="openLinkedListPage" finished-at="2026-03-06T13:11:44 PST" duration-ms="1684" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyPracticeQuestionsPage()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyPracticeQuestionsPage()[pri:6, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:44 PST" name="verifyPracticeQuestionsPage" finished-at="2026-03-06T13:11:45 PST" duration-ms="599" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPracticeQuestionsPage -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:45 PST" name="backToHome" finished-at="2026-03-06T13:11:45 PST" duration-ms="257" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPracticeQuestionsPage status=SUCCESS method=TC08_LinkedList.verifyPracticeQuestionsPage()[pri:6, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="openLinkedListPage(java.lang.reflect.Method)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:45 PST" name="openLinkedListPage" finished-at="2026-03-06T13:11:46 PST" duration-ms="1703" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test.TC08_LinkedList.verifyPracticeQuestionList()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLinkedListPage -->
-        <test-method signature="verifyPracticeQuestionList()[pri:7, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:11:46 PST" name="verifyPracticeQuestionList" finished-at="2026-03-06T13:12:27 PST" duration-ms="40776" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Practice question list is empty expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Practice question list is empty expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at Test.TC08_LinkedList.verifyPracticeQuestionList(TC08_LinkedList.java:108)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPracticeQuestionList -->
-        <test-method is-config="true" signature="backToHome(org.testng.ITestResult)[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:12:27 PST" name="backToHome" finished-at="2026-03-06T13:12:28 PST" duration-ms="281" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPracticeQuestionList status=FAILURE method=TC08_LinkedList.verifyPracticeQuestionList()[pri:7, instance:Test.TC08_LinkedList@1dfd5f51] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.TC08_LinkedList@1dfd5f51]" started-at="2026-03-06T13:12:28 PST" name="tearDown" finished-at="2026-03-06T13:12:28 PST" duration-ms="382" status="PASS">
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.TC04_Login@5a2f016d]" started-at="2026-03-07T17:56:49 PST" name="tearDown" finished-at="2026-03-07T17:56:52 PST" duration-ms="3184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test.TC08_LinkedList -->
+      </class> <!-- Test.TC04_Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

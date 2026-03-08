@@ -1,3 +1,4 @@
-/target/
-/test-output
+target/
+/test-output/
 /logs
+/test-output

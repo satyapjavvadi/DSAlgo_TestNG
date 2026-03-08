@@ -5,15 +5,16 @@ import java.util.List;
 
 import DriverManager.DriverFactory;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
+
 
 import utils.ExcelReader;
 import utils.TestContext;
@@ -24,7 +25,8 @@ public class RegisterPage {
 	
 
 	private WebDriver driver;
-	private static final Logger logger = LoggerFactory.getLogger(RegisterPage.class);
+	private static final Logger logger = LogManager.getLogger(RegisterPage.class);
+
 
 	public RegisterPage() {
 		this.driver = DriverFactory.getDriver();
