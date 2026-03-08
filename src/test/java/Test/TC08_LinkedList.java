@@ -10,7 +10,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import DriverManager.DriverFactory;
 import TestPackage.LinkedListData;
 import utils.ElementUtil;
 
@@ -82,7 +81,6 @@ public class TC08_LinkedList extends Hooks {
 
 		Assert.assertTrue(ElementUtil.getURL().contains("tryEditor"), "Try Editor did not open");
 		logger.info("Try Editor opened successfully");
-		DriverFactory.getDriver().navigate().back();
 	}
 
 	@Test(priority = 5, groups = "Introduction")
@@ -95,14 +93,12 @@ public class TC08_LinkedList extends Hooks {
 	@Test(priority = 6, groups = "Introduction")
 	public void verifyPracticeQuestionsPage() {
 		pom.getLinkedListPage().clickPracticeQuestionsLink();
-		Assert.assertTrue(DriverFactory.getDriver().getPageSource().contains("Practice Questions"),
-				"Practice Questions page title missing");
+		Assert.assertTrue(ElementUtil.getURL().contains("practice"), "Practice Questions page title missing");
 		logger.info("Practice questions page opened");
 	}
 
 	@Test(priority = 7, groups = "Introduction")
 	public void verifyPracticeQuestionList() {
-		pom.getLinkedListPage().clickPracticeQuestionsLink();
 		List<String> questions = pom.getLinkedListPage().getQuestionsList();
 		Assert.assertTrue(!questions.isEmpty(), "Practice question list is empty");
 		logger.info("Practice questions displayed: {}", questions);
