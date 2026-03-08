@@ -1,4 +1,3 @@
-
 package Test;
 
 import java.lang.reflect.Method;
@@ -19,7 +18,7 @@ import utils.ElementUtil;
 public class TC11_Tree extends Hooks {
 
 	@BeforeMethod
-	public void navigateToTreemainpage(Method method) {
+	public void navigateToTreeMainPage(Method method) {
 
 		logger.info("Clicking get sarted button of Tree module in home page");
 		pom.getHomePage().clickGetStarted("Tree");
@@ -38,7 +37,7 @@ public class TC11_Tree extends Hooks {
 	}
 
 	@Test(priority = 2, dataProvider = "TreeUIcontent", dataProviderClass = TreeData.class)
-	public void Verifycontent(String content) {
+	public void VerifyContent(String content) {
 
 		List<String> headings = pom.getTreePage().getheadingtext();
 		logger.info("Headings on Tree page: {}", headings);
@@ -47,7 +46,7 @@ public class TC11_Tree extends Hooks {
 	}
 
 	@Test(priority = 3, dataProvider = "Treetopics", dataProviderClass = TreeData.class)
-	public void verifyTreetopics(String expectedtopics) {
+	public void verifyTreeTopics(String expectedtopics) {
 		List<String> actualSubtopics = pom.getTreePage().subtopiclinks();
 		logger.info("Validating Tree subtopics");
 
@@ -56,7 +55,7 @@ public class TC11_Tree extends Hooks {
 	}
 
 	@Test(priority = 4, dataProvider = "Treepageurl", dataProviderClass = TreeData.class)
-	public void verifyTreetopicurl(String topic, String topicurl) {
+	public void verifyTreeTopicUrl(String topic, String topicurl) {
 		pom.getTreePage().clickTopicLink(topic);
 
 		Assert.assertTrue(ElementUtil.getURL().contains(topicurl),
@@ -75,7 +74,7 @@ public class TC11_Tree extends Hooks {
 	}
 
 	@Test(priority = 6, groups = "Overview of Trees")
-	public void opencodeeditor() {
+	public void openCodeEditor() {
 
 		pom.getTreePage().clickTryHereButton();
 		logger.info("Clicked '{}' button", "Try here>>>");
@@ -85,7 +84,7 @@ public class TC11_Tree extends Hooks {
 	}
 
 	@Test(priority = 7, groups = "Overview of Trees")
-	public void checkpracticequestionlink() {
+	public void checkPracticeQuestionLink() {
 
 		boolean isLinkVisible = pom.getTreePage().isPracticeQuestionLinkVisible();
 		Assert.assertTrue(isLinkVisible, "Practice Questions link not present ");
@@ -94,7 +93,7 @@ public class TC11_Tree extends Hooks {
 	}
 
 	@Test(priority = 8, groups = "Overview of Trees")
-	public void viewpracticequestions() {
+	public void viewPracticeQuestions() {
 
 		pom.getTreePage().clickPracticeQuestionsLink();
 
@@ -104,7 +103,7 @@ public class TC11_Tree extends Hooks {
 
 		logger.info("Actual Questions: {}", questionList);
 
-		Assert.assertTrue(!questionList.isEmpty(), "Practice question list is empty");
+		Assert.assertFalse(questionList.isEmpty(), "Practice question list is empty");
 
 		logger.info("Verified Tree practice questions page");
 

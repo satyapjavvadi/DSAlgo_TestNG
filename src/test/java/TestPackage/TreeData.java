@@ -1,7 +1,6 @@
 
 package TestPackage;
 
-import java.util.Arrays;
 
 import org.testng.annotations.DataProvider;
 
@@ -13,12 +12,12 @@ public class TreeData {
 	}
 
 	@DataProvider(name = "TreeUIcontent")
-	public Object[][] UIContent() {
+	public Object[][] uiContent() {
 		return new Object[][] { { "Tree" }, { "Topics Covered" } };
 	}
 
 	@DataProvider(name = "Treetopics")
-	public Object[][] getTreetopics() {
+	public Object[][] getTreeTopics() {
 		return new Object[][] { { "Overview of Trees" }, { "Terminologies" }, { "Types of Trees" },
 				{ "Tree Traversals" }, { "Traversals-Illustration" }, { "Binary Trees" }, { "Types of Binary Trees" },
 				{ "Implementation in Python" }, { "Binary Tree Traversals" }, { "Implementation of Binary Trees" },
@@ -26,7 +25,7 @@ public class TreeData {
 	}
 
 	@DataProvider(name = "Treepageurl")
-	public Object[][] verifyTreepageurl() {
+	public Object[][] verifyTreePageurl() {
 		return new Object[][] { { "Overview of Trees", "overview-of-trees" }, { "Terminologies", "terminologies" },
 				{ "Types of Trees", "types-of-trees" }, { "Tree Traversals", "tree-traversals" },
 				{ "Traversals-Illustration", "traversals-illustration" }, { "Binary Trees", "binary-trees" },
