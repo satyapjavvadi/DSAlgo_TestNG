@@ -9,18 +9,18 @@ public class QueueData {
 	}
 
 	@DataProvider(name = "QueueUIcontent")
-	public Object[][] UIContent() {
+	public Object[][] uiContent() {
 		return new Object[][] { { "Queue" }, { "Topics Covered" } };
 	}
 
 	@DataProvider(name = "Queuetopics")
-	public Object[][] getQueuetopics() {
+	public Object[][] getQueueTopics() {
 		return new Object[][] { { "Implementation of Queue in Python" }, { "Implementation using collections.deque" },
 				{ "Implementation using array" }, { "Queue Operations" } };
 	}
 
 	@DataProvider(name = "Queuepageurl")
-	public Object[][] verifyQueuepageurl() {
+	public Object[][] verifyQueuePageUrl() {
 		return new Object[][] { { "Implementation of Queue in Python", "implementation-lists" },
 				{ "Implementation using collections.deque", "implementation-collections" },
 				{ "Implementation using array", "Implementation-array" }, { "Queue Operations", "QueueOp" }

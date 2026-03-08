@@ -1,4 +1,3 @@
-
 package Test;
 
 import java.lang.reflect.Method;
@@ -19,7 +18,7 @@ import utils.ElementUtil;
 public class TC10_Queue extends Hooks {
 
 	@BeforeMethod
-	public void navigateToQueuemainpage(Method method) {
+	public void navigateToQueueMainPage(Method method) {
 
 		logger.info("Clicking get sarted button of Queue module in home page");
 		pom.getHomePage().clickGetStarted("Queue");
@@ -38,7 +37,7 @@ public class TC10_Queue extends Hooks {
 	}
 
 	@Test(priority = 2, dataProvider = "QueueUIcontent", dataProviderClass = QueueData.class)
-	public void Verifycontent(String content) {
+	public void verifyContent(String content) {
 
 		List<String> headings = pom.getQueuePage().getHeadingText();
 		logger.info("Headings on Queue page: {}", headings);
@@ -47,7 +46,7 @@ public class TC10_Queue extends Hooks {
 	}
 
 	@Test(priority = 3, dataProvider = "Queuetopics", dataProviderClass = QueueData.class)
-	public void verifyQueuetopics(String expectedtopics) {
+	public void verifyQueueTopics(String expectedtopics) {
 		List<String> actualSubtopics = pom.getQueuePage().subTopicLinks();
 		logger.info("Validating Queue subtopics");
 
@@ -56,7 +55,7 @@ public class TC10_Queue extends Hooks {
 	}
 
 	@Test(priority = 4, dataProvider = "Queuepageurl", dataProviderClass = QueueData.class)
-	public void verifyQueuetopicurl(String topic, String topicurl) {
+	public void verifyQueueTopicUrl(String topic, String topicurl) {
 		pom.getQueuePage().clickTopicLink(topic);
 
 		Assert.assertTrue(ElementUtil.getURL().contains(topicurl),
@@ -75,7 +74,7 @@ public class TC10_Queue extends Hooks {
 	}
 
 	@Test(priority = 6, groups = "Implementation of Queue in Python")
-	public void opencodeeditor() {
+	public void openCodeEditor() {
 
 		pom.getQueuePage().clickTryHereButton();
 		logger.info("Clicked '{}' button", "Try here>>>");
@@ -85,7 +84,7 @@ public class TC10_Queue extends Hooks {
 	}
 
 	@Test(priority = 7, groups = "Implementation of Queue in Python")
-	public void checkpracticequestionlink() {
+	public void checkPracticequestionLink() {
 
 		boolean isLinkVisible = pom.getQueuePage().isPracticeQuestionLinkVisible();
 		Assert.assertTrue(isLinkVisible, "Practice Questions link not present ");
@@ -94,7 +93,7 @@ public class TC10_Queue extends Hooks {
 	}
 
 	@Test(priority = 8, groups = "Implementation of Queue in Python")
-	public void viewpracticequestions() {
+	public void viewPracticeQuestions() {
 
 		pom.getQueuePage().clickPracticeQuestionsLink();
 
@@ -104,7 +103,7 @@ public class TC10_Queue extends Hooks {
 
 		logger.info("Actual Questions: {}", questionList);
 
-		Assert.assertTrue(!questionList.isEmpty(), "Practice question list is empty");
+		Assert.assertFalse(questionList.isEmpty(), "Practice question list is empty");
 
 		logger.info("Verified Queue practice questions page");
 
@@ -123,3 +122,4 @@ public class TC10_Queue extends Hooks {
 	}
 
 }
+
