@@ -8,7 +8,7 @@ import TestPackage.HomeData;
 import utils.ElementUtil;
 
 @Test(groups = "Get Started")
-public class TC02_Home extends Hooks {
+public class TC05_Home extends Hooks {
 	
 	@Test
 	public void verifyCompanyName() {

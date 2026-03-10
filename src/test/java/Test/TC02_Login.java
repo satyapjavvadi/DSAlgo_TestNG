@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Test(groups = "Get Started")
-public class TC04_Login extends Hooks {
+public class TC02_Login extends Hooks {
 
 	private String testCase;
 

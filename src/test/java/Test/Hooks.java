@@ -31,9 +31,7 @@ public class Hooks {
 		logger.info("Before Suite : set Browser : {}", browserName);
 		DriverFactory.setBrowser(browserName);
 
-		pom = new PageObjectManager();
-
-	    prop = ConfigReader.initializeProperties();
+		prop = ConfigReader.initializeProperties();
 		logger.debug("Loaded configuration properties");
 
 		ExcelReader.readDataFromExcel(prop.getProperty("loginsheetName"));
@@ -42,10 +40,16 @@ public class Hooks {
 		logger.info("Excel test data loaded");
 	}
 
-	@BeforeClass
-	public void setUp() {
+	@BeforeClass(alwaysRun = true)
+	@Parameters("browserName")
+	public void setUp(@Optional("chrome") String browserName) {
+
+		DriverFactory.setBrowser(browserName);
+
 		logger.info("Before Class : Initialize Browser ");
 		DriverFactory.launchBrowser();
+
+		pom = new PageObjectManager();
 
 		Test testAnnotationTest = getClass().getAnnotation(Test.class);
 
@@ -61,12 +65,10 @@ public class Hooks {
 				pom.getLoginPage().login("Submits the login form", "valid_login");
 				logger.info("Performed login with valid credentials");
 			}
-
 		}
-
 	}
 
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void tearDown() {
 		if (DriverFactory.getDriver() != null) {
 			logger.info("Tearing down WebDriver and closing browser");
