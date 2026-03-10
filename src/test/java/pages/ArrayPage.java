@@ -133,7 +133,7 @@ public class ArrayPage {
 
 	public void clickPracticeQuestionsLink() {
 		logger.info("Clicking Practice Questions link");
-		logger.info("Clicking Practice Questions link.");
+		
 		JSUtils.scrollIntoView(Practicequestionslink);
 		wait.waitForClickable(Practicequestionslink).click();
 	}
@@ -164,7 +164,7 @@ public class ArrayPage {
 			if (questionName.equalsIgnoreCase(problemName)) {
 				eachQuestion.click();
 				logger.info("Successfully clicked problem: {}", problemName);
-				logger.info("Successfully clicked problem: {}", problemName);
+				
 				return;
 			}
 		}
