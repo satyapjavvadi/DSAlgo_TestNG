@@ -11,12 +11,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import utils.ConfigReader;
 
-
-
 public class DriverFactory {
 
 	public static ThreadLocal<WebDriver> mydriver = new ThreadLocal<>();
-	public static ThreadLocal<String>  testNGBrowser= new ThreadLocal<>();
+	public static ThreadLocal<String> testNGBrowser = new ThreadLocal<>();
 	private static final Logger logger = LogManager.getLogger(DriverFactory.class);
 
 	public static void launchBrowser() {
@@ -28,20 +26,17 @@ public class DriverFactory {
 			if (browser.equalsIgnoreCase("Chrome")) {
 				mydriver.set(new ChromeDriver());
 				logger.info("Chrome browser launched successfully.");
-			}
-			else if (browser.equalsIgnoreCase("Firefox")) {
+			} else if (browser.equalsIgnoreCase("Firefox")) {
 				mydriver.set(new FirefoxDriver());
 				logger.info("Firefox browser launched successfully.");
-			}
-			else if (browser.equalsIgnoreCase("Edge")) {
+			} else if (browser.equalsIgnoreCase("Edge")) {
 				mydriver.set(new EdgeDriver());
 				logger.info("Edge browser launched successfully.");
-			}
-			else {
+			} else {
 				logger.error("Browser not supported: {}", browser);
 				throw new IllegalArgumentException("Browser not supported: " + browser);
 			}
-			
+
 			getDriver().get(ConfigReader.getProperty("baseURL"));
 
 			getDriver().manage().deleteAllCookies();
@@ -65,11 +60,10 @@ public class DriverFactory {
 	}
 
 	public static void setBrowser(String browserName) {
-		 testNGBrowser.set(browserName);
+		testNGBrowser.set(browserName);
 	}
-	
-	
+
 	public static String getBrowser() {
-	       return	testNGBrowser.get();
+		return testNGBrowser.get();
 	}
 }

@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
+<suite name="Suite" parallel="classes" thread-count="3">
+	<parameter name="browserName" value="chrome" />
 
-      <class name="Test.TC01_launch"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+	<listeners>
+		<listener
+			class-name="com.aventstack.chaintest.plugins.ChainTestListener" />
+
+		<listener class-name="utils.TestListener" />
+		<listener class-name="utils.RetryTransformer" />
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="Test.TC01_launch" />
+			<class name="Test.TC02_Login" />
+			<class name="Test.TC03_Register" />
+			<class name="Test.TC04_Home_withSignin" />
+			<class name="Test.TC05_Home" />
+			<class name="Test.TC06_DataStructures" />
+			<class name="Test.TC08_LinkedList" />
+			<class name="Test.TC09_Stack" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
