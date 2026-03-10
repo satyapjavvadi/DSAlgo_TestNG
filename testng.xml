@@ -18,8 +18,12 @@
 			<class name="Test.TC04_Home_withSignin" />
 			<class name="Test.TC05_Home" />
 			<class name="Test.TC06_DataStructures" />
+			<class name="Test.TC07_Array" />
 			<class name="Test.TC08_LinkedList" />
 			<class name="Test.TC09_Stack" />
+			<class name="Test.TC10_Queue" />
+			<class name="Test.TC11_Tree" />
+			<class name="Test.TC12_Graph" />
 		</classes>
 	</test> <!--
 	Test -->
