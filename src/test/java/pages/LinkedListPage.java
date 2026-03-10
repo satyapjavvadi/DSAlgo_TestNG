@@ -121,6 +121,7 @@ public class LinkedListPage {
 		logger.info("Clicking Practice Questions link.");
 		JSUtils.scrollIntoView(Practicequestionslink);
 		wait.waitForClickable(Practicequestionslink).click();
+
 	}
 
 	public List<String> getQuestionsList() {
@@ -128,9 +129,7 @@ public class LinkedListPage {
 			logger.info("Fetching LinkedList practice questions.");
 			wait.waitForVisibilityOfAll(questionslist);
 
-			List<String> questions = questionslist.stream()
-					.map(WebElement::getText)
-					.collect(Collectors.toList());
+			List<String> questions = questionslist.stream().map(WebElement::getText).collect(Collectors.toList());
 
 			logger.debug("Questions found: {}", questions);
 			return questions;
@@ -155,4 +154,5 @@ public class LinkedListPage {
 
 		logger.warn("Problem link not found: {}", problemName);
 	}
+
 }
